@@ -1,0 +1,1 @@
+{"version":3,"file":"drone.schema.js","sourceRoot":"","sources":["../../src/drones/drone.schema.ts"],"names":[],"mappings":";;;AAAA,qCAAoC;AAEvB,QAAA,WAAW,GAAG,IAAI,QAAQ,CAAC,MAAM,CAAC;IAG3C,KAAK,EAAE,MAAM;IACb,MAAM,EAAE,MAAM;IACd,eAAe,EAAE,MAAM;IACvB,UAAU,EAAE,MAAM;IAClB,UAAU,EAAE,MAAM;IAClB,WAAW,EAAE,MAAM;IACnB,KAAK,EAAE,MAAM;CAChB,CAAC,CAAC"}
