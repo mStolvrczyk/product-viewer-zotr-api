@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { DronesModule } from './models/drones/drones.module';
-import { GraphicsCardsModule } from './models/graphicsCards/graphicsCards.module';
-import { KeyboardsModule } from './models/keyboards/keyboards.module';
+import { DronesModule } from './collections/drones/drones.module';
+import { GraphicsCardsModule } from './collections/graphicsCards/graphicsCards.module';
+import { KeyboardsModule } from './collections/keyboards/keyboards.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import config from './config/keys';
 

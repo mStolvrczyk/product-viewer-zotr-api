@@ -1236,92 +1236,92 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "affectsGlobalScope": false
       },
-      "../src/models/drones/dto/create-drone.dto.ts": {
+      "../src/collections/drones/dto/create-drone.dto.ts": {
         "version": "b2dad046e839b488f3f9cfa427a814b71a22257145d52ee9e3a6e5a9f0630537",
         "signature": "3b9e6e1a034da937c1331a2c7ad0023f57d0d5cf805a6e104dc71c489434cacb",
         "affectsGlobalScope": false
       },
-      "../src/models/drones/interfaces/drone.interface.ts": {
+      "../src/collections/drones/interfaces/drone.interface.ts": {
         "version": "6a6bef85963ec8180e73762e14db5585d4f78c72ba6ae855640e63c67ddaf318",
         "signature": "6a6bef85963ec8180e73762e14db5585d4f78c72ba6ae855640e63c67ddaf318",
         "affectsGlobalScope": false
       },
-      "../src/models/drones/services/drones.service.ts": {
+      "../src/collections/drones/services/drones.service.ts": {
         "version": "088f147e1042c2ae6a7a0d1858ef8246a592545a57e2b0064f7b54c5a33b0edc",
         "signature": "fe9d86f6c01a3ca0b8d13ff02e2414081620b987b5c65c678ebdbcc39ea5976c",
         "affectsGlobalScope": false
       },
-      "../src/models/drones/controllers/drones.controller.ts": {
+      "../src/collections/drones/controllers/drones.controller.ts": {
         "version": "88fa0178a51e7b0db5269457388786f22909b42bf8a7e94dbf7c6935194921a4",
         "signature": "84cf1336a941ba913d16806181000fc0e726f836b9acba1c5b222ff0f05949cf",
         "affectsGlobalScope": false
       },
-      "../src/models/drones/schemas/drone.schema.ts": {
+      "../src/collections/drones/schemas/drone.schema.ts": {
         "version": "140bea5236e2337710d72e67e84e1b906bf50d18d2aaa6cdaf4c60f8683e4906",
         "signature": "5be71240d313a6c427d758b02d6db3c37368d8c8b973118241eab8d900a6fe20",
         "affectsGlobalScope": false
       },
-      "../src/models/drones/drones.module.ts": {
+      "../src/collections/drones/drones.module.ts": {
         "version": "71982fabf0d16310bc8a3bcbe87276d37a513206584adce869f107d743ebcec2",
         "signature": "2f7deb07a374305f7b934bbd73ccff41e4b3b1cd28fb29270387d88b23efb4b8",
         "affectsGlobalScope": false
       },
-      "../src/models/graphicsCards/dto/create-graphicsCard.dto.ts": {
+      "../src/collections/graphicsCards/dto/create-graphicsCard.dto.ts": {
         "version": "e1e7067c8955bdb19af0b9ad3ddcb9b75ff3f0fb56c1142a60b31f4f9a52e033",
         "signature": "034c5992db70c2ef32656f19c9676da87e709a8fa71879d3677941db60de5cdd",
         "affectsGlobalScope": false
       },
-      "../src/models/graphicsCards/interfaces/graphicsCard.interface.ts": {
+      "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts": {
         "version": "065109dda34d9609dd3becff4ede50b94ca7d9448bfcb93c1888ea64a1d12c27",
         "signature": "065109dda34d9609dd3becff4ede50b94ca7d9448bfcb93c1888ea64a1d12c27",
         "affectsGlobalScope": false
       },
-      "../src/models/graphicsCards/services/graphicsCards.service.ts": {
+      "../src/collections/graphicsCards/services/graphicsCards.service.ts": {
         "version": "96358b737ac6ea86059fdff3ccaff78a0d1dc1792f80f64f3411b31453dbef5b",
         "signature": "0235fdbbd2aec84d458419ec7395d61c09bacc40c4f3d38214bfa42e509bb576",
         "affectsGlobalScope": false
       },
-      "../src/models/graphicsCards/controllers/graphicsCards.controller.ts": {
+      "../src/collections/graphicsCards/controllers/graphicsCards.controller.ts": {
         "version": "2f66f90b48a00f45ab65918a650c1ac6f2417515921a317969c197bfda889ecf",
         "signature": "9b7100bf525e2075a36932383badaae862390a54d7e7db9e6a1b20bd4f58a244",
         "affectsGlobalScope": false
       },
-      "../src/models/graphicsCards/schemas/graphicsCard.schema.ts": {
+      "../src/collections/graphicsCards/schemas/graphicsCard.schema.ts": {
         "version": "64db7285e475c0e0e29b297898840b8b02c783904a97043c282c39252f9d2758",
         "signature": "f26ec80533e1729fb863c9a6782c43255158dbbdaabbad770b1ddd2ea0145c55",
         "affectsGlobalScope": false
       },
-      "../src/models/graphicsCards/graphicsCards.module.ts": {
+      "../src/collections/graphicsCards/graphicsCards.module.ts": {
         "version": "b52fbf5e98477fc9ec48a51611d0838c106336bf55e42569af81239c5ee67ee3",
         "signature": "2fedef6cca0bc7c6e460152331426754a666ad95c8872c3d96fb2e83d87a673b",
         "affectsGlobalScope": false
       },
-      "../src/models/keyboards/dto/create-keyboard.dto.ts": {
+      "../src/collections/keyboards/dto/create-keyboard.dto.ts": {
         "version": "aacaa93ed54bdd85c45416afa98f6d3c54e7328b7a0b108dbada3f56101ed6b1",
         "signature": "ffd65f8935bdc2f3349c0b6adea8e9e563096a71017c70fbbc4ce32389a2ac9d",
         "affectsGlobalScope": false
       },
-      "../src/models/keyboards/interfaces/keyboard.interface.ts": {
+      "../src/collections/keyboards/interfaces/keyboard.interface.ts": {
         "version": "39b8af7ea6d8bf39354f82ada0fd01cde43550d6ebe8e094915b40760f9fcc6a",
         "signature": "39b8af7ea6d8bf39354f82ada0fd01cde43550d6ebe8e094915b40760f9fcc6a",
         "affectsGlobalScope": false
       },
-      "../src/models/keyboards/services/keyboards.service.ts": {
+      "../src/collections/keyboards/services/keyboards.service.ts": {
         "version": "f8d0fe0a45d5e38618f39d2497a43b16038627d67af4523df93ff2c4db0dcbda",
         "signature": "42bb047b9fa7c0a6858a34808499407137be65f603a986b746b979e007925163",
         "affectsGlobalScope": false
       },
-      "../src/models/keyboards/controllers/keyboards.ts": {
+      "../src/collections/keyboards/controllers/keyboards.ts": {
         "version": "f7f0b1340be6102ce6641ee484b090ad9834d9b48f20afc93c0a15bcace30a9a",
         "signature": "00ef271099fa56ba4c6b929c69bf034e3e25ae727c95f5f43c91bb56ea491dc0",
         "affectsGlobalScope": false
       },
-      "../src/models/keyboards/schemas/keyboard.schema.ts": {
+      "../src/collections/keyboards/schemas/keyboard.schema.ts": {
         "version": "417207be22cccd84fe7a8c3f2f18e9dc781aec34d7131536f16a660a5b9a6e36",
         "signature": "f86381842f11ee119636b65e056a19ac7535013fb777fe1912e17295350a1317",
         "affectsGlobalScope": false
       },
-      "../src/models/keyboards/keyboards.module.ts": {
+      "../src/collections/keyboards/keyboards.module.ts": {
         "version": "e424dd2489320253af0cd8da8125f9f154ec3e1cb17e3df4cbe09f6d7aabf16d",
         "signature": "a7171d91de4c87006b4850baa10bab19912a28321a283a869fe1e959962d4ad0",
         "affectsGlobalScope": false
@@ -1332,7 +1332,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "8c81232c0c14b62b154b5d1563badb37ca743d0f48015b830c2b4be2ae0c9f96",
+        "version": "a4ca6c26fce1cefff05c23cacc60d4e17ea0643188a1a819d12f70a018bc0fa5",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -5446,10 +5446,10 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/app.controller.ts",
         "../src/app.service.ts",
-        "../src/config/keys.ts",
-        "../src/models/drones/drones.module.ts",
-        "../src/models/graphicsCards/graphicsCards.module.ts",
-        "../src/models/keyboards/keyboards.module.ts"
+        "../src/collections/drones/drones.module.ts",
+        "../src/collections/graphicsCards/graphicsCards.module.ts",
+        "../src/collections/keyboards/keyboards.module.ts",
+        "../src/config/keys.ts"
       ],
       "../src/app.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -5458,6 +5458,168 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/drones/controllers/drones.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/drones/dto/create-drone.dto.ts",
+        "../src/collections/drones/interfaces/drone.interface.ts",
+        "../src/collections/drones/services/drones.service.ts"
+      ],
+      "../src/collections/drones/drones.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/drones/controllers/drones.controller.ts",
+        "../src/collections/drones/schemas/drone.schema.ts",
+        "../src/collections/drones/services/drones.service.ts"
+      ],
+      "../src/collections/drones/dto/create-drone.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/drones/interfaces/drone.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/drones/schemas/drone.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/drones/services/drones.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/drones/interfaces/drone.interface.ts"
+      ],
+      "../src/collections/graphicsCards/controllers/graphicsCards.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/graphicsCards/dto/create-graphicsCard.dto.ts",
+        "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts",
+        "../src/collections/graphicsCards/services/graphicsCards.service.ts"
+      ],
+      "../src/collections/graphicsCards/dto/create-graphicsCard.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/graphicsCards/graphicsCards.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/graphicsCards/controllers/graphicsCards.controller.ts",
+        "../src/collections/graphicsCards/schemas/graphicsCard.schema.ts",
+        "../src/collections/graphicsCards/services/graphicsCards.service.ts"
+      ],
+      "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/graphicsCards/schemas/graphicsCard.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/graphicsCards/services/graphicsCards.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts"
+      ],
+      "../src/collections/keyboards/controllers/keyboards.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/keyboards/dto/create-keyboard.dto.ts",
+        "../src/collections/keyboards/interfaces/keyboard.interface.ts",
+        "../src/collections/keyboards/services/keyboards.service.ts"
+      ],
+      "../src/collections/keyboards/dto/create-keyboard.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/keyboards/interfaces/keyboard.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/keyboards/keyboards.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/keyboards/controllers/keyboards.ts",
+        "../src/collections/keyboards/schemas/keyboard.schema.ts",
+        "../src/collections/keyboards/services/keyboards.service.ts"
+      ],
+      "../src/collections/keyboards/schemas/keyboard.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/keyboards/services/keyboards.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/keyboards/interfaces/keyboard.interface.ts"
       ],
       "../src/config/keys.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5474,168 +5636,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/app.module.ts"
-      ],
-      "../src/models/drones/controllers/drones.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../src/models/drones/dto/create-drone.dto.ts",
-        "../src/models/drones/interfaces/drone.interface.ts",
-        "../src/models/drones/services/drones.service.ts"
-      ],
-      "../src/models/drones/drones.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../src/models/drones/controllers/drones.controller.ts",
-        "../src/models/drones/schemas/drone.schema.ts",
-        "../src/models/drones/services/drones.service.ts"
-      ],
-      "../src/models/drones/dto/create-drone.dto.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/models/drones/interfaces/drone.interface.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/models/drones/schemas/drone.schema.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/models/drones/services/drones.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../src/models/drones/interfaces/drone.interface.ts"
-      ],
-      "../src/models/graphicsCards/controllers/graphicsCards.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../src/models/graphicsCards/dto/create-graphicsCard.dto.ts",
-        "../src/models/graphicsCards/interfaces/graphicsCard.interface.ts",
-        "../src/models/graphicsCards/services/graphicsCards.service.ts"
-      ],
-      "../src/models/graphicsCards/dto/create-graphicsCard.dto.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/models/graphicsCards/graphicsCards.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../src/models/graphicsCards/controllers/graphicsCards.controller.ts",
-        "../src/models/graphicsCards/schemas/graphicsCard.schema.ts",
-        "../src/models/graphicsCards/services/graphicsCards.service.ts"
-      ],
-      "../src/models/graphicsCards/interfaces/graphicsCard.interface.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/models/graphicsCards/schemas/graphicsCard.schema.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/models/graphicsCards/services/graphicsCards.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../src/models/graphicsCards/interfaces/graphicsCard.interface.ts"
-      ],
-      "../src/models/keyboards/controllers/keyboards.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../src/models/keyboards/dto/create-keyboard.dto.ts",
-        "../src/models/keyboards/interfaces/keyboard.interface.ts",
-        "../src/models/keyboards/services/keyboards.service.ts"
-      ],
-      "../src/models/keyboards/dto/create-keyboard.dto.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/models/keyboards/interfaces/keyboard.interface.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/models/keyboards/keyboards.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../src/models/keyboards/controllers/keyboards.ts",
-        "../src/models/keyboards/schemas/keyboard.schema.ts",
-        "../src/models/keyboards/services/keyboards.service.ts"
-      ],
-      "../src/models/keyboards/schemas/keyboard.schema.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/models/keyboards/services/keyboards.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../src/models/keyboards/interfaces/keyboard.interface.ts"
       ]
     },
     "exportedModulesMap": {
@@ -9032,27 +9032,29 @@
       "../src/app.controller.ts": [
         "../src/app.service.ts"
       ],
-      "../src/models/drones/controllers/drones.controller.ts": [
-        "../src/models/drones/dto/create-drone.dto.ts",
-        "../src/models/drones/interfaces/drone.interface.ts",
-        "../src/models/drones/services/drones.service.ts"
+      "../src/collections/drones/controllers/drones.controller.ts": [
+        "../src/collections/drones/dto/create-drone.dto.ts",
+        "../src/collections/drones/interfaces/drone.interface.ts",
+        "../src/collections/drones/services/drones.service.ts"
       ],
-      "../src/models/drones/services/drones.service.ts": [
-        "../src/models/drones/interfaces/drone.interface.ts"
+      "../src/collections/drones/services/drones.service.ts": [
+        "../src/collections/drones/interfaces/drone.interface.ts"
       ],
-      "../src/models/graphicsCards/controllers/graphicsCards.controller.ts": [
-        "../src/models/graphicsCards/dto/create-graphicsCard.dto.ts",
-        "../src/models/graphicsCards/interfaces/graphicsCard.interface.ts",
-        "../src/models/graphicsCards/services/graphicsCards.service.ts"
+      "../src/collections/graphicsCards/controllers/graphicsCards.controller.ts": [
+        "../src/collections/graphicsCards/dto/create-graphicsCard.dto.ts",
+        "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts",
+        "../src/collections/graphicsCards/services/graphicsCards.service.ts"
       ],
-      "../src/models/graphicsCards/services/graphicsCards.service.ts": [
-        "../src/models/graphicsCards/interfaces/graphicsCard.interface.ts"
+      "../src/collections/graphicsCards/services/graphicsCards.service.ts": [
+        "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts"
       ],
-      "../src/models/keyboards/controllers/keyboards.ts": [
-        "../src/models/keyboards/dto/create-keyboard.dto.ts"
+      "../src/collections/keyboards/controllers/keyboards.ts": [
+        "../src/collections/keyboards/dto/create-keyboard.dto.ts",
+        "../src/collections/keyboards/interfaces/keyboard.interface.ts",
+        "../src/collections/keyboards/services/keyboards.service.ts"
       ],
-      "../src/models/keyboards/services/keyboards.service.ts": [
-        "../src/models/keyboards/interfaces/keyboard.interface.ts"
+      "../src/collections/keyboards/services/keyboards.service.ts": [
+        "../src/collections/keyboards/interfaces/keyboard.interface.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -9440,26 +9442,26 @@
       "../src/app.controller.ts",
       "../src/app.module.ts",
       "../src/app.service.ts",
+      "../src/collections/drones/controllers/drones.controller.ts",
+      "../src/collections/drones/drones.module.ts",
+      "../src/collections/drones/dto/create-drone.dto.ts",
+      "../src/collections/drones/interfaces/drone.interface.ts",
+      "../src/collections/drones/schemas/drone.schema.ts",
+      "../src/collections/drones/services/drones.service.ts",
+      "../src/collections/graphicsCards/controllers/graphicsCards.controller.ts",
+      "../src/collections/graphicsCards/dto/create-graphicsCard.dto.ts",
+      "../src/collections/graphicsCards/graphicsCards.module.ts",
+      "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts",
+      "../src/collections/graphicsCards/schemas/graphicsCard.schema.ts",
+      "../src/collections/graphicsCards/services/graphicsCards.service.ts",
+      "../src/collections/keyboards/controllers/keyboards.ts",
+      "../src/collections/keyboards/dto/create-keyboard.dto.ts",
+      "../src/collections/keyboards/interfaces/keyboard.interface.ts",
+      "../src/collections/keyboards/keyboards.module.ts",
+      "../src/collections/keyboards/schemas/keyboard.schema.ts",
+      "../src/collections/keyboards/services/keyboards.service.ts",
       "../src/config/keys.ts",
-      "../src/main.ts",
-      "../src/models/drones/controllers/drones.controller.ts",
-      "../src/models/drones/drones.module.ts",
-      "../src/models/drones/dto/create-drone.dto.ts",
-      "../src/models/drones/interfaces/drone.interface.ts",
-      "../src/models/drones/schemas/drone.schema.ts",
-      "../src/models/drones/services/drones.service.ts",
-      "../src/models/graphicsCards/controllers/graphicsCards.controller.ts",
-      "../src/models/graphicsCards/dto/create-graphicsCard.dto.ts",
-      "../src/models/graphicsCards/graphicsCards.module.ts",
-      "../src/models/graphicsCards/interfaces/graphicsCard.interface.ts",
-      "../src/models/graphicsCards/schemas/graphicsCard.schema.ts",
-      "../src/models/graphicsCards/services/graphicsCards.service.ts",
-      "../src/models/keyboards/controllers/keyboards.ts",
-      "../src/models/keyboards/dto/create-keyboard.dto.ts",
-      "../src/models/keyboards/interfaces/keyboard.interface.ts",
-      "../src/models/keyboards/keyboards.module.ts",
-      "../src/models/keyboards/schemas/keyboard.schema.ts",
-      "../src/models/keyboards/services/keyboards.service.ts"
+      "../src/main.ts"
     ]
   },
   "version": "3.9.5"
