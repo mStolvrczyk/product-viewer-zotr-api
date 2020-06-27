@@ -10,15 +10,16 @@ exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
-const drones_module_1 = require("./drones/drones.module");
-const graphicsCards_module_1 = require("./graphicsCards/graphicsCards.module");
+const drones_module_1 = require("./models/drones/drones.module");
+const graphicsCards_module_1 = require("./models/graphicsCards/graphicsCards.module");
+const keyboards_module_1 = require("./models/keyboards/keyboards.module");
 const mongoose_1 = require("@nestjs/mongoose");
 const keys_1 = require("./config/keys");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [drones_module_1.DronesModule, graphicsCards_module_1.GraphicsCardsModule, mongoose_1.MongooseModule.forRoot(keys_1.default.mongoURI)],
+        imports: [drones_module_1.DronesModule, graphicsCards_module_1.GraphicsCardsModule, keyboards_module_1.KeyboardsModule, mongoose_1.MongooseModule.forRoot(keys_1.default.mongoURI)],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })

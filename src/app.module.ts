@@ -1,13 +1,14 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { DronesModule } from './drones/drones.module';
-import { GraphicsCardsModule } from './graphicsCards/graphicsCards.module';
+import { DronesModule } from './models/drones/drones.module';
+import { GraphicsCardsModule } from './models/graphicsCards/graphicsCards.module';
+import { KeyboardsModule } from './models/keyboards/keyboards.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import config from './config/keys';
 
 @Module({
-  imports: [DronesModule, GraphicsCardsModule, MongooseModule.forRoot(config.mongoURI)],
+  imports: [DronesModule, GraphicsCardsModule, KeyboardsModule, MongooseModule.forRoot(config.mongoURI)],
   controllers: [AppController],
   providers: [AppService],
 })
