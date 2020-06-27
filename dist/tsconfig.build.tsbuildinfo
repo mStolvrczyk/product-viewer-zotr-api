@@ -1356,13 +1356,43 @@
         "signature": "ed14f6ce3c341fbf01ef907dbacdce5d522decb39a4cd2cd15116b877aadcdbe",
         "affectsGlobalScope": false
       },
+      "../src/collections/monitors/dto/create-monitor.dto.ts": {
+        "version": "368e2bb77a279d071ce9738b6da2cc0dcdd9eac49ad67ae8164bdf29b11eff1c",
+        "signature": "c58834b030448732daa1546ccd85a031bfed9d6b878563491e9966f0baff0132",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/monitors/interfaces/monitor.interface.ts": {
+        "version": "43ed6ff0a2113eaffd7ea47584423d1854c3204183f1a0ea15d9fb6947f32e00",
+        "signature": "43ed6ff0a2113eaffd7ea47584423d1854c3204183f1a0ea15d9fb6947f32e00",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/monitors/services/monitors.service.ts": {
+        "version": "9c3ee53b131e0282053ae8e646dde2bb4854276bea1990f6f37aa6359db334b8",
+        "signature": "4bc0d575a1faa524836e458e4c0335c12b0a6039b5f9100b52d64b582231c551",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/monitors/controllers/monitors.ts": {
+        "version": "5605127ecec02902013b1b55d7f53acde97bdecc38fa2eb77d28153f0564df0b",
+        "signature": "3e4b63683743428a59a3dd1f2da69cf253371f47f615c13b3677464c22a54cc4",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/monitors/schemas/monitor.schema.ts": {
+        "version": "ef38f3517a20d54902e9a3ff29f2cb569bcb5b9e117bcc622d0a865aa0e78431",
+        "signature": "60cf92aa3999d90155d6ce111551b6dee323cf5b9814a3426f910b47b4253413",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/monitors/monitors.module.ts": {
+        "version": "840a045102dd92332c7437037a3dc2198e2de3ecbb16800845a119d93c692e57",
+        "signature": "4608028a473406b643d8c38fbb744d4199513cea20bf38dfb7f0ba70506db36c",
+        "affectsGlobalScope": false
+      },
       "../src/config/keys.ts": {
         "version": "09a84e6c309e689c5e8585df635d19d846e5df99674300c07f86ea2f83fd336a",
         "signature": "65dba4176b8b6bed97caca241289891acffef895cc7eb6a8ce8eec50a3eca36d",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "6f4040fd93a9934dce65e4e426c1d3c13f554ec4b7acbb467244673c90633198",
+        "version": "ded46f9cbee8eaffbde3c6de0a930d92c745d6d69ca85ff892f3afb32f257c69",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -5480,6 +5510,7 @@
         "../src/collections/graphicsCards/graphicsCards.module.ts",
         "../src/collections/keyboards/keyboards.module.ts",
         "../src/collections/laptops/laptops.module.ts",
+        "../src/collections/monitors/monitors.module.ts",
         "../src/config/keys.ts"
       ],
       "../src/app.service.ts": [
@@ -5705,6 +5736,60 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/collections/laptops/interfaces/laptop.interface.ts"
+      ],
+      "../src/collections/monitors/controllers/monitors.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/monitors/dto/create-monitor.dto.ts",
+        "../src/collections/monitors/interfaces/monitor.interface.ts",
+        "../src/collections/monitors/services/monitors.service.ts"
+      ],
+      "../src/collections/monitors/dto/create-monitor.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/monitors/interfaces/monitor.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/monitors/monitors.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/monitors/controllers/monitors.ts",
+        "../src/collections/monitors/schemas/monitor.schema.ts",
+        "../src/collections/monitors/services/monitors.service.ts"
+      ],
+      "../src/collections/monitors/schemas/monitor.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/monitors/services/monitors.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/monitors/interfaces/monitor.interface.ts"
       ],
       "../src/config/keys.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -9143,6 +9228,9 @@
       ],
       "../src/collections/laptops/services/laptops.service.ts": [
         "../src/collections/laptops/interfaces/laptop.interface.ts"
+      ],
+      "../src/collections/monitors/services/monitors.service.ts": [
+        "../src/collections/monitors/interfaces/monitor.interface.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -9554,6 +9642,12 @@
       "../src/collections/laptops/laptops.module.ts",
       "../src/collections/laptops/schemas/laptop.schema.ts",
       "../src/collections/laptops/services/laptops.service.ts",
+      "../src/collections/monitors/controllers/monitors.ts",
+      "../src/collections/monitors/dto/create-monitor.dto.ts",
+      "../src/collections/monitors/interfaces/monitor.interface.ts",
+      "../src/collections/monitors/monitors.module.ts",
+      "../src/collections/monitors/schemas/monitor.schema.ts",
+      "../src/collections/monitors/services/monitors.service.ts",
       "../src/config/keys.ts",
       "../src/main.ts"
     ]
