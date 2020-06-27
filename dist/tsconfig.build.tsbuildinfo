@@ -1326,13 +1326,43 @@
         "signature": "a7171d91de4c87006b4850baa10bab19912a28321a283a869fe1e959962d4ad0",
         "affectsGlobalScope": false
       },
+      "../src/collections/laptops/dto/create-laptop.dto.ts": {
+        "version": "ef9daf41bc513c093fc323e83683d7d9c94dad9a3cb8dca6f698decf8717bd35",
+        "signature": "177e99afd8231d2f14d4ae77fb46507ba44ebb86ac38e6692455fd27ffca9b20",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/laptops/interfaces/laptop.interface.ts": {
+        "version": "388abe1ca7dad81ad408c1df9814c91f75a194ecf3531475f460974e5429f4d0",
+        "signature": "388abe1ca7dad81ad408c1df9814c91f75a194ecf3531475f460974e5429f4d0",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/laptops/services/laptops.service.ts": {
+        "version": "ffb145a9d10dace95316a661469022092027fb50fc52934b0eb090f7401141c0",
+        "signature": "353c46df17c84aac690f25c0a4575b0bb2e772131d5552f4077e14c0c21b3f99",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/laptops/controllers/laptops.ts": {
+        "version": "6b396e683f0d085ffbb979c3eccae6e064184b7595723ed1589000a25db2e613",
+        "signature": "79dc85098fe4dba8b1d426a5350e38799f0acb4147061216211c3c85a8af4ffd",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/laptops/schemas/laptop.schema.ts": {
+        "version": "2c27a6eb33ceb84f4d05167e59f1bbb50859c8eff946b43e402a0a822189262d",
+        "signature": "e7f6aaa70e2b18229aa8321d07729200bcab89b66dd73ce4732cb9d3910b4d97",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/laptops/laptops.module.ts": {
+        "version": "585d8cebefa24071338b21221632bf399e994f48840ed777488477c0095cca4d",
+        "signature": "ed14f6ce3c341fbf01ef907dbacdce5d522decb39a4cd2cd15116b877aadcdbe",
+        "affectsGlobalScope": false
+      },
       "../src/config/keys.ts": {
         "version": "09a84e6c309e689c5e8585df635d19d846e5df99674300c07f86ea2f83fd336a",
         "signature": "65dba4176b8b6bed97caca241289891acffef895cc7eb6a8ce8eec50a3eca36d",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "a4ca6c26fce1cefff05c23cacc60d4e17ea0643188a1a819d12f70a018bc0fa5",
+        "version": "6f4040fd93a9934dce65e4e426c1d3c13f554ec4b7acbb467244673c90633198",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -5449,6 +5479,7 @@
         "../src/collections/drones/drones.module.ts",
         "../src/collections/graphicsCards/graphicsCards.module.ts",
         "../src/collections/keyboards/keyboards.module.ts",
+        "../src/collections/laptops/laptops.module.ts",
         "../src/config/keys.ts"
       ],
       "../src/app.service.ts": [
@@ -5620,6 +5651,60 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/collections/keyboards/interfaces/keyboard.interface.ts"
+      ],
+      "../src/collections/laptops/controllers/laptops.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/laptops/dto/create-laptop.dto.ts",
+        "../src/collections/laptops/interfaces/laptop.interface.ts",
+        "../src/collections/laptops/services/laptops.service.ts"
+      ],
+      "../src/collections/laptops/dto/create-laptop.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/laptops/interfaces/laptop.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/laptops/laptops.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/laptops/controllers/laptops.ts",
+        "../src/collections/laptops/schemas/laptop.schema.ts",
+        "../src/collections/laptops/services/laptops.service.ts"
+      ],
+      "../src/collections/laptops/schemas/laptop.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/laptops/services/laptops.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/laptops/interfaces/laptop.interface.ts"
       ],
       "../src/config/keys.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -9055,6 +9140,9 @@
       ],
       "../src/collections/keyboards/services/keyboards.service.ts": [
         "../src/collections/keyboards/interfaces/keyboard.interface.ts"
+      ],
+      "../src/collections/laptops/services/laptops.service.ts": [
+        "../src/collections/laptops/interfaces/laptop.interface.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -9460,6 +9548,12 @@
       "../src/collections/keyboards/keyboards.module.ts",
       "../src/collections/keyboards/schemas/keyboard.schema.ts",
       "../src/collections/keyboards/services/keyboards.service.ts",
+      "../src/collections/laptops/controllers/laptops.ts",
+      "../src/collections/laptops/dto/create-laptop.dto.ts",
+      "../src/collections/laptops/interfaces/laptop.interface.ts",
+      "../src/collections/laptops/laptops.module.ts",
+      "../src/collections/laptops/schemas/laptop.schema.ts",
+      "../src/collections/laptops/services/laptops.service.ts",
       "../src/config/keys.ts",
       "../src/main.ts"
     ]
