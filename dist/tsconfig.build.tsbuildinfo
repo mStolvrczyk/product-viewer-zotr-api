@@ -1416,13 +1416,73 @@
         "signature": "dbe06946980cdb0565d713da179fd65c61f1b93e56253150479aa269185d4b89",
         "affectsGlobalScope": false
       },
+      "../src/collections/smartphones/dto/create-smartphone.dto.ts": {
+        "version": "48d0f5b8fef61d2e7bec20958d5e26545ad70705f6950e4374251497787ac740",
+        "signature": "584a3cf5f1396974149f76c0c072c2a6249c2e7f42a3f5cd5cac7461836c16a8",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/smartphones/interfaces/smartphone.interface.ts": {
+        "version": "7b4a198207a72ad1632a39e93a742a04680a2271a9f58268719b8dc18359f795",
+        "signature": "7b4a198207a72ad1632a39e93a742a04680a2271a9f58268719b8dc18359f795",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/smartphones/services/smartphones.service.ts": {
+        "version": "fc3b71a51c763b0a8f759d1a7126b481f793beb2b1ea501dc80fa3b2252ba97c",
+        "signature": "d189456eedaa49cd1e6d27fc6e1ad3981be060b02e80e27c1df6132255687bea",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/smartphones/controllers/smartphones.ts": {
+        "version": "c98cebb5cb72ff4de89840d14060b536d3baa945906cf6c68c10ec1a8800be9a",
+        "signature": "d9e111f0653a419673abedd2e40d318e1b442a81448c5f00d3dd9e21f2f9df23",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/smartphones/schemas/smartphone.schema.ts": {
+        "version": "055d25162e1f7d5a7bb997b6f6d77ba30684f9220271de75f54f74624ece726b",
+        "signature": "c818bb7bdcdae1641bb1973cca8f11a49d0c80c03dce46335f9f3d4f1f652943",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/smartphones/smartphones.module.ts": {
+        "version": "cb8fdfc4c8b146d57401acb66dd5bb14bfbf806237c7fc45990a33ea577ebf2d",
+        "signature": "5f37c794e45cf9357e4b795709b553ba4bc464584f687bc5c574deeda3c69d92",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/wirelessHeadphones/dto/create-wirelessHeadphones.dto.ts": {
+        "version": "cc577d05168fa43b17e86d7186ec1d937ae4ca40f96167a12f3bf76a59ee5235",
+        "signature": "25ecc6fc95c4ebb78a3b5f6909836dc50985bd74431a4f093a2357857c97475a",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts": {
+        "version": "90111c362f6d76f779aadcc5e6a10b7e51a89197be49a70a404c587a3d5b9cec",
+        "signature": "90111c362f6d76f779aadcc5e6a10b7e51a89197be49a70a404c587a3d5b9cec",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts": {
+        "version": "c94c6c9a54497b25b3696f876e5f0d23bbc3b0b3ff9f1f4bfb7c0f7d85ae6d45",
+        "signature": "538d24631673587204567138324a1542ced7ddcfe616598c426d68d36e46e26c",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.ts": {
+        "version": "d283aec99dc5ab00db14f8eacebf66ed4ed79c7508ee865db4766e3e3f338d9a",
+        "signature": "b4272d1e5a4985228eba017d0826fa683aa99119efa759a43208f077caf85245",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/wirelessHeadphones/schemas/wirelessHeadphones.schema.ts": {
+        "version": "854753724cb68830f6e85ff66f076ad3f2d61b2a953c7425d52f0d7f3d586a06",
+        "signature": "1e568693fbae03fbe6f2df1e54b1c94b8e345b22630b5d9bb4bdfb2e645e0430",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/wirelessHeadphones/wirelessHeadphones.module.ts": {
+        "version": "a509063a752be9b98ced9602084b802e71eb6edc1fa081e387a1e53c2c63d533",
+        "signature": "c9bb44e3575c5e2c7a2cf1db3fdc39fe62db1fb8ed893e8cff99c5a9d7cc905f",
+        "affectsGlobalScope": false
+      },
       "../src/config/keys.ts": {
         "version": "09a84e6c309e689c5e8585df635d19d846e5df99674300c07f86ea2f83fd336a",
         "signature": "65dba4176b8b6bed97caca241289891acffef895cc7eb6a8ce8eec50a3eca36d",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "e7e92ae473cef40bb08c5231384956897847bc9f29bbb177b050035dc75e94c5",
+        "version": "45e9542179dd517bb0afe1b6905a6977ddcfe72a1ec0a22dc4dcb77636b9d722",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -5542,6 +5602,8 @@
         "../src/collections/laptops/laptops.module.ts",
         "../src/collections/monitors/monitors.module.ts",
         "../src/collections/mouses/mouses.module.ts",
+        "../src/collections/smartphones/smartphones.module.ts",
+        "../src/collections/wirelessHeadphones/wirelessHeadphones.module.ts",
         "../src/config/keys.ts"
       ],
       "../src/app.service.ts": [
@@ -5875,6 +5937,114 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/collections/mouses/interfaces/mouse.interface.ts"
+      ],
+      "../src/collections/smartphones/controllers/smartphones.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/smartphones/dto/create-smartphone.dto.ts",
+        "../src/collections/smartphones/interfaces/smartphone.interface.ts",
+        "../src/collections/smartphones/services/smartphones.service.ts"
+      ],
+      "../src/collections/smartphones/dto/create-smartphone.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/smartphones/interfaces/smartphone.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/smartphones/schemas/smartphone.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/smartphones/services/smartphones.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/smartphones/interfaces/smartphone.interface.ts"
+      ],
+      "../src/collections/smartphones/smartphones.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/smartphones/controllers/smartphones.ts",
+        "../src/collections/smartphones/schemas/smartphone.schema.ts",
+        "../src/collections/smartphones/services/smartphones.service.ts"
+      ],
+      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/wirelessHeadphones/dto/create-wirelessHeadphones.dto.ts",
+        "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts",
+        "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts"
+      ],
+      "../src/collections/wirelessHeadphones/dto/create-wirelessHeadphones.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/wirelessHeadphones/schemas/wirelessHeadphones.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts"
+      ],
+      "../src/collections/wirelessHeadphones/wirelessHeadphones.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.ts",
+        "../src/collections/wirelessHeadphones/schemas/wirelessHeadphones.schema.ts",
+        "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts"
       ],
       "../src/config/keys.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -9319,6 +9489,15 @@
       ],
       "../src/collections/mouses/services/mouses.service.ts": [
         "../src/collections/mouses/interfaces/mouse.interface.ts"
+      ],
+      "../src/collections/smartphones/controllers/smartphones.ts": [
+        "../src/collections/smartphones/dto/create-smartphone.dto.ts"
+      ],
+      "../src/collections/smartphones/services/smartphones.service.ts": [
+        "../src/collections/smartphones/interfaces/smartphone.interface.ts"
+      ],
+      "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts": [
+        "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -9742,6 +9921,18 @@
       "../src/collections/mouses/mouses.module.ts",
       "../src/collections/mouses/schemas/mouse.schema.ts",
       "../src/collections/mouses/services/mouses.service.ts",
+      "../src/collections/smartphones/controllers/smartphones.ts",
+      "../src/collections/smartphones/dto/create-smartphone.dto.ts",
+      "../src/collections/smartphones/interfaces/smartphone.interface.ts",
+      "../src/collections/smartphones/schemas/smartphone.schema.ts",
+      "../src/collections/smartphones/services/smartphones.service.ts",
+      "../src/collections/smartphones/smartphones.module.ts",
+      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.ts",
+      "../src/collections/wirelessHeadphones/dto/create-wirelessHeadphones.dto.ts",
+      "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts",
+      "../src/collections/wirelessHeadphones/schemas/wirelessHeadphones.schema.ts",
+      "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts",
+      "../src/collections/wirelessHeadphones/wirelessHeadphones.module.ts",
       "../src/config/keys.ts",
       "../src/main.ts"
     ]

@@ -16,13 +16,15 @@ const keyboards_module_1 = require("./collections/keyboards/keyboards.module");
 const laptops_module_1 = require("./collections/laptops/laptops.module");
 const monitors_module_1 = require("./collections/monitors/monitors.module");
 const mouses_module_1 = require("./collections/mouses/mouses.module");
+const smartphones_module_1 = require("./collections/smartphones/smartphones.module");
+const wirelessHeadphones_module_1 = require("./collections/wirelessHeadphones/wirelessHeadphones.module");
 const mongoose_1 = require("@nestjs/mongoose");
 const keys_1 = require("./config/keys");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [drones_module_1.DronesModule, graphicsCards_module_1.GraphicsCardsModule, keyboards_module_1.KeyboardsModule, laptops_module_1.LaptopsModule, monitors_module_1.MonitorsModule, mouses_module_1.MousesModule, mongoose_1.MongooseModule.forRoot(keys_1.default.mongoURI)],
+        imports: [drones_module_1.DronesModule, graphicsCards_module_1.GraphicsCardsModule, keyboards_module_1.KeyboardsModule, laptops_module_1.LaptopsModule, monitors_module_1.MonitorsModule, mouses_module_1.MousesModule, smartphones_module_1.SmartphonesModule, wirelessHeadphones_module_1.WirelessHeadphonesModule, mongoose_1.MongooseModule.forRoot(keys_1.default.mongoURI)],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })

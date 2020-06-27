@@ -7,11 +7,13 @@ import { KeyboardsModule } from './collections/keyboards/keyboards.module';
 import { LaptopsModule } from './collections/laptops/laptops.module';
 import { MonitorsModule } from './collections/monitors/monitors.module';
 import { MousesModule } from './collections/mouses/mouses.module';
+import { SmartphonesModule } from './collections/smartphones/smartphones.module';
+import { WirelessHeadphonesModule } from './collections/wirelessHeadphones/wirelessHeadphones.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import config from './config/keys';
 
 @Module({
-  imports: [DronesModule, GraphicsCardsModule, KeyboardsModule, LaptopsModule, MonitorsModule, MousesModule, MongooseModule.forRoot(config.mongoURI)],
+  imports: [DronesModule, GraphicsCardsModule, KeyboardsModule, LaptopsModule, MonitorsModule, MousesModule, SmartphonesModule, WirelessHeadphonesModule, MongooseModule.forRoot(config.mongoURI)],
   controllers: [AppController],
   providers: [AppService],
 })
