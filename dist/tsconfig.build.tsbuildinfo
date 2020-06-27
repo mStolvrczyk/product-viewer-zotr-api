@@ -1386,13 +1386,43 @@
         "signature": "4608028a473406b643d8c38fbb744d4199513cea20bf38dfb7f0ba70506db36c",
         "affectsGlobalScope": false
       },
+      "../src/collections/mouses/dto/create-mouse.dto.ts": {
+        "version": "5bd600933a7d00e97f5f782056ea9b8fbd5b2f75f0b0ac37b4691f5a862248b8",
+        "signature": "fbdcafa1230fbd2eb1edb3a6c2bf6ab261bb79933506b203354782c1afbf76b2",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/mouses/interfaces/mouse.interface.ts": {
+        "version": "10275e2599b962e632d943a2d18ad285b992192a8b4cdeeaa03abe711a6e4b1d",
+        "signature": "10275e2599b962e632d943a2d18ad285b992192a8b4cdeeaa03abe711a6e4b1d",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/mouses/services/mouses.service.ts": {
+        "version": "0c09ad67bd9cbef2ded16d036d133575aa16246b265cd07717686f89c7703783",
+        "signature": "cc5c6cb381c0598a618ce2d65a6009fde3cbb627947170fc35ae26aff0880af4",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/mouses/controllers/mouses.ts": {
+        "version": "3b41600a0d5700634b47e69f5b67fe97121a78d4f8aa774f4eacb704e6724aab",
+        "signature": "20716daf0a524fa16dfaf971d7d9e6e91b0d7097b18acd6ee208f1fb39597710",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/mouses/schemas/mouse.schema.ts": {
+        "version": "fa1675861880fdf6e40ad95c6bf18821b91d0c45ac47eb65ecbca821f64eda34",
+        "signature": "53e8872e0d9c4c847b543b20bfb59f6f50d1a61c16b29efd171cfbef271722a3",
+        "affectsGlobalScope": false
+      },
+      "../src/collections/mouses/mouses.module.ts": {
+        "version": "e389b4fa91242a0af09b14131e678cc8cbe9e3d7ee2820fb46250af8e8d6f238",
+        "signature": "dbe06946980cdb0565d713da179fd65c61f1b93e56253150479aa269185d4b89",
+        "affectsGlobalScope": false
+      },
       "../src/config/keys.ts": {
         "version": "09a84e6c309e689c5e8585df635d19d846e5df99674300c07f86ea2f83fd336a",
         "signature": "65dba4176b8b6bed97caca241289891acffef895cc7eb6a8ce8eec50a3eca36d",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "ded46f9cbee8eaffbde3c6de0a930d92c745d6d69ca85ff892f3afb32f257c69",
+        "version": "e7e92ae473cef40bb08c5231384956897847bc9f29bbb177b050035dc75e94c5",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -5511,6 +5541,7 @@
         "../src/collections/keyboards/keyboards.module.ts",
         "../src/collections/laptops/laptops.module.ts",
         "../src/collections/monitors/monitors.module.ts",
+        "../src/collections/mouses/mouses.module.ts",
         "../src/config/keys.ts"
       ],
       "../src/app.service.ts": [
@@ -5790,6 +5821,60 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/collections/monitors/interfaces/monitor.interface.ts"
+      ],
+      "../src/collections/mouses/controllers/mouses.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/mouses/dto/create-mouse.dto.ts",
+        "../src/collections/mouses/interfaces/mouse.interface.ts",
+        "../src/collections/mouses/services/mouses.service.ts"
+      ],
+      "../src/collections/mouses/dto/create-mouse.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/mouses/interfaces/mouse.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/mouses/mouses.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/mouses/controllers/mouses.ts",
+        "../src/collections/mouses/schemas/mouse.schema.ts",
+        "../src/collections/mouses/services/mouses.service.ts"
+      ],
+      "../src/collections/mouses/schemas/mouse.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/collections/mouses/services/mouses.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/collections/mouses/interfaces/mouse.interface.ts"
       ],
       "../src/config/keys.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -9231,6 +9316,9 @@
       ],
       "../src/collections/monitors/services/monitors.service.ts": [
         "../src/collections/monitors/interfaces/monitor.interface.ts"
+      ],
+      "../src/collections/mouses/services/mouses.service.ts": [
+        "../src/collections/mouses/interfaces/mouse.interface.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -9648,6 +9736,12 @@
       "../src/collections/monitors/monitors.module.ts",
       "../src/collections/monitors/schemas/monitor.schema.ts",
       "../src/collections/monitors/services/monitors.service.ts",
+      "../src/collections/mouses/controllers/mouses.ts",
+      "../src/collections/mouses/dto/create-mouse.dto.ts",
+      "../src/collections/mouses/interfaces/mouse.interface.ts",
+      "../src/collections/mouses/mouses.module.ts",
+      "../src/collections/mouses/schemas/mouse.schema.ts",
+      "../src/collections/mouses/services/mouses.service.ts",
       "../src/config/keys.ts",
       "../src/main.ts"
     ]
