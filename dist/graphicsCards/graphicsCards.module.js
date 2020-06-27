@@ -6,22 +6,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AppModule = void 0;
+exports.GraphicsCardsModule = void 0;
 const common_1 = require("@nestjs/common");
-const app_controller_1 = require("./app.controller");
-const app_service_1 = require("./app.service");
-const drones_module_1 = require("./drones/drones.module");
-const graphicsCards_module_1 = require("./graphicsCards/graphicsCards.module");
 const mongoose_1 = require("@nestjs/mongoose");
-const keys_1 = require("./config/keys");
-let AppModule = class AppModule {
+const graphicsCards_controller_1 = require("./controllers/graphicsCards.controller");
+const graphicsCards_service_1 = require("./services/graphicsCards.service");
+const graphicsCard_schema_1 = require("./schemas/graphicsCard.schema");
+let GraphicsCardsModule = class GraphicsCardsModule {
 };
-AppModule = __decorate([
+GraphicsCardsModule = __decorate([
     common_1.Module({
-        imports: [drones_module_1.DronesModule, graphicsCards_module_1.GraphicsCardsModule, mongoose_1.MongooseModule.forRoot(keys_1.default.mongoURI)],
-        controllers: [app_controller_1.AppController],
-        providers: [app_service_1.AppService],
+        imports: [mongoose_1.MongooseModule.forFeature([{ name: 'GraphicsCard', schema: graphicsCard_schema_1.GraphicsCardSchema }])],
+        controllers: [graphicsCards_controller_1.GraphicsCardsController],
+        providers: [graphicsCards_service_1.GraphicsCardsService],
     })
-], AppModule);
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+], GraphicsCardsModule);
+exports.GraphicsCardsModule = GraphicsCardsModule;
+//# sourceMappingURL=graphicsCards.module.js.map

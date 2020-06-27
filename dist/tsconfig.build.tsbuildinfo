@@ -1266,13 +1266,43 @@
         "signature": "2f7deb07a374305f7b934bbd73ccff41e4b3b1cd28fb29270387d88b23efb4b8",
         "affectsGlobalScope": false
       },
+      "../src/graphicsCards/dto/create-graphicsCard.dto.ts": {
+        "version": "9b77658c8138f9e9d7ed8625217919aa8cc847e3c35b7254ce3186687cd7d3b7",
+        "signature": "a0524c7dd268826881d05f054e9429086a3f60d58dce3597fd5c0394b22b9d1e",
+        "affectsGlobalScope": false
+      },
+      "../src/graphicsCards/interfaces/graphicsCard.interface.ts": {
+        "version": "4691fe425c6f2239364bf958eb594bbb097b3706c7fd58d2bd8ac24436389509",
+        "signature": "4691fe425c6f2239364bf958eb594bbb097b3706c7fd58d2bd8ac24436389509",
+        "affectsGlobalScope": false
+      },
+      "../src/graphicsCards/services/graphicsCards.service.ts": {
+        "version": "6c786fe0cd23e24d72f68f4c5d97f558677d9c6a0122b2e6d2a4f63033ae39af",
+        "signature": "c229f9da56bd00d85a44fcb5b92cc73d58aca1e8318c15b35c8d5d48eb3c61b6",
+        "affectsGlobalScope": false
+      },
+      "../src/graphicsCards/controllers/graphicsCards.controller.ts": {
+        "version": "2f66f90b48a00f45ab65918a650c1ac6f2417515921a317969c197bfda889ecf",
+        "signature": "9b7100bf525e2075a36932383badaae862390a54d7e7db9e6a1b20bd4f58a244",
+        "affectsGlobalScope": false
+      },
+      "../src/graphicsCards/schemas/graphicsCard.schema.ts": {
+        "version": "64db7285e475c0e0e29b297898840b8b02c783904a97043c282c39252f9d2758",
+        "signature": "f26ec80533e1729fb863c9a6782c43255158dbbdaabbad770b1ddd2ea0145c55",
+        "affectsGlobalScope": false
+      },
+      "../src/graphicsCards/graphicsCards.module.ts": {
+        "version": "b52fbf5e98477fc9ec48a51611d0838c106336bf55e42569af81239c5ee67ee3",
+        "signature": "2fedef6cca0bc7c6e460152331426754a666ad95c8872c3d96fb2e83d87a673b",
+        "affectsGlobalScope": false
+      },
       "../src/config/keys.ts": {
         "version": "09a84e6c309e689c5e8585df635d19d846e5df99674300c07f86ea2f83fd336a",
         "signature": "65dba4176b8b6bed97caca241289891acffef895cc7eb6a8ce8eec50a3eca36d",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "ffb4bc10dbc70c031daf6442ac5fe911bac422c9e46cf23ef2f26835d8f545d4",
+        "version": "3e341e82677b301967c9287e5612366e9ed20af0d73cceaa4e9d525323ca8fb5",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -5387,7 +5417,8 @@
         "../src/app.controller.ts",
         "../src/app.service.ts",
         "../src/config/keys.ts",
-        "../src/drones/drones.module.ts"
+        "../src/drones/drones.module.ts",
+        "../src/graphicsCards/graphicsCards.module.ts"
       ],
       "../src/app.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -5457,6 +5488,60 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/drones/interfaces/drone.interface.ts"
+      ],
+      "../src/graphicsCards/controllers/graphicsCards.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/graphicsCards/dto/create-graphicsCard.dto.ts",
+        "../src/graphicsCards/interfaces/graphicsCard.interface.ts",
+        "../src/graphicsCards/services/graphicsCards.service.ts"
+      ],
+      "../src/graphicsCards/dto/create-graphicsCard.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/graphicsCards/graphicsCards.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/graphicsCards/controllers/graphicsCards.controller.ts",
+        "../src/graphicsCards/schemas/graphicsCard.schema.ts",
+        "../src/graphicsCards/services/graphicsCards.service.ts"
+      ],
+      "../src/graphicsCards/interfaces/graphicsCard.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/graphicsCards/schemas/graphicsCard.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/graphicsCards/services/graphicsCards.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/graphicsCards/interfaces/graphicsCard.interface.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -8869,6 +8954,12 @@
       ],
       "../src/drones/services/drones.service.ts": [
         "../src/drones/interfaces/drone.interface.ts"
+      ],
+      "../src/graphicsCards/controllers/graphicsCards.controller.ts": [
+        "../src/graphicsCards/dto/create-graphicsCard.dto.ts"
+      ],
+      "../src/graphicsCards/services/graphicsCards.service.ts": [
+        "../src/graphicsCards/interfaces/graphicsCard.interface.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -9263,6 +9354,12 @@
       "../src/drones/interfaces/drone.interface.ts",
       "../src/drones/schemas/drone.schema.ts",
       "../src/drones/services/drones.service.ts",
+      "../src/graphicsCards/controllers/graphicsCards.controller.ts",
+      "../src/graphicsCards/dto/create-graphicsCard.dto.ts",
+      "../src/graphicsCards/graphicsCards.module.ts",
+      "../src/graphicsCards/interfaces/graphicsCard.interface.ts",
+      "../src/graphicsCards/schemas/graphicsCard.schema.ts",
+      "../src/graphicsCards/services/graphicsCards.service.ts",
       "../src/main.ts"
     ]
   },
