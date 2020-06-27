@@ -1257,7 +1257,7 @@
         "affectsGlobalScope": false
       },
       "../src/drones/schemas/drone.schema.ts": {
-        "version": "31499b696b8fad35d060b3fb699ce8a3efbb11c5b3dcfa039de2013f5a4ede94",
+        "version": "140bea5236e2337710d72e67e84e1b906bf50d18d2aaa6cdaf4c60f8683e4906",
         "signature": "5be71240d313a6c427d758b02d6db3c37368d8c8b973118241eab8d900a6fe20",
         "affectsGlobalScope": false
       },
@@ -1267,7 +1267,7 @@
         "affectsGlobalScope": false
       },
       "../src/config/keys.ts": {
-        "version": "eded3bef5f6a82f7ae04b31f8cef33d974a0b72b2e074296fe02c80893d3cf18",
+        "version": "09a84e6c309e689c5e8585df635d19d846e5df99674300c07f86ea2f83fd336a",
         "signature": "65dba4176b8b6bed97caca241289891acffef895cc7eb6a8ce8eec50a3eca36d",
         "affectsGlobalScope": false
       },
