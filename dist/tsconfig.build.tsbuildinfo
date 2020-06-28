@@ -1297,13 +1297,13 @@
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/dto/create-keyboard.dto.ts": {
-        "version": "aacaa93ed54bdd85c45416afa98f6d3c54e7328b7a0b108dbada3f56101ed6b1",
-        "signature": "ffd65f8935bdc2f3349c0b6adea8e9e563096a71017c70fbbc4ce32389a2ac9d",
+        "version": "9f99e68781d024e095e5e0866c3cd9d64f2f4bfbe8f34ac64845c6136d47b15a",
+        "signature": "2e7d602c636aaac2eeccee35ce09004ca5287b0985f4974dac01db7ed8d90e7f",
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/interfaces/keyboard.interface.ts": {
-        "version": "39b8af7ea6d8bf39354f82ada0fd01cde43550d6ebe8e094915b40760f9fcc6a",
-        "signature": "39b8af7ea6d8bf39354f82ada0fd01cde43550d6ebe8e094915b40760f9fcc6a",
+        "version": "d011a9846e611f2c4b26433a03078a645dbb6a0916c9ee13db6813ea576e2034",
+        "signature": "d011a9846e611f2c4b26433a03078a645dbb6a0916c9ee13db6813ea576e2034",
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/services/keyboards.service.ts": {
@@ -1317,7 +1317,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/schemas/keyboard.schema.ts": {
-        "version": "417207be22cccd84fe7a8c3f2f18e9dc781aec34d7131536f16a660a5b9a6e36",
+        "version": "353d0f6066b138370d270b27fffea94e7f38ef769372a6d14817036e6851e17f",
         "signature": "f86381842f11ee119636b65e056a19ac7535013fb777fe1912e17295350a1317",
         "affectsGlobalScope": false
       },
@@ -1387,13 +1387,13 @@
         "affectsGlobalScope": false
       },
       "../src/collections/mouses/dto/create-mouse.dto.ts": {
-        "version": "5bd600933a7d00e97f5f782056ea9b8fbd5b2f75f0b0ac37b4691f5a862248b8",
-        "signature": "fbdcafa1230fbd2eb1edb3a6c2bf6ab261bb79933506b203354782c1afbf76b2",
+        "version": "375e01aa6e95c7ef81a63092738de19caabf3a74baecde77a9feef74f28cf1a2",
+        "signature": "5a4ebd807a648bed2b487f0c738b255a3eef4d863e7d6df2285c2da1f98a403a",
         "affectsGlobalScope": false
       },
       "../src/collections/mouses/interfaces/mouse.interface.ts": {
-        "version": "10275e2599b962e632d943a2d18ad285b992192a8b4cdeeaa03abe711a6e4b1d",
-        "signature": "10275e2599b962e632d943a2d18ad285b992192a8b4cdeeaa03abe711a6e4b1d",
+        "version": "49332ed0a30d39fb6190a449e31cabeb2edffc6cecb9bd49f79c00c6be76176d",
+        "signature": "49332ed0a30d39fb6190a449e31cabeb2edffc6cecb9bd49f79c00c6be76176d",
         "affectsGlobalScope": false
       },
       "../src/collections/mouses/services/mouses.service.ts": {
@@ -1407,7 +1407,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/mouses/schemas/mouse.schema.ts": {
-        "version": "fa1675861880fdf6e40ad95c6bf18821b91d0c45ac47eb65ecbca821f64eda34",
+        "version": "8f17960e0370924a54980c000e17d9b776788ff7e04080fc2f62005cca67d1ae",
         "signature": "53e8872e0d9c4c847b543b20bfb59f6f50d1a61c16b29efd171cfbef271722a3",
         "affectsGlobalScope": false
       },
@@ -1417,13 +1417,13 @@
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/dto/create-smartphone.dto.ts": {
-        "version": "48d0f5b8fef61d2e7bec20958d5e26545ad70705f6950e4374251497787ac740",
-        "signature": "584a3cf5f1396974149f76c0c072c2a6249c2e7f42a3f5cd5cac7461836c16a8",
+        "version": "1953dcee651d474e2de9d580013088ac3358d610055c10c79269b1854cd7f5ef",
+        "signature": "280ad644deaaf35ccc502053183f97c361b48d84427900f082a7f012cf3af32a",
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/interfaces/smartphone.interface.ts": {
-        "version": "7b4a198207a72ad1632a39e93a742a04680a2271a9f58268719b8dc18359f795",
-        "signature": "7b4a198207a72ad1632a39e93a742a04680a2271a9f58268719b8dc18359f795",
+        "version": "d7e4a6fed0e5725b5021867c54bd030a21dc9dcd2da513a54fc5860762a68596",
+        "signature": "d7e4a6fed0e5725b5021867c54bd030a21dc9dcd2da513a54fc5860762a68596",
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/services/smartphones.service.ts": {
@@ -1437,7 +1437,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/schemas/smartphone.schema.ts": {
-        "version": "055d25162e1f7d5a7bb997b6f6d77ba30684f9220271de75f54f74624ece726b",
+        "version": "036c1829708d48261f8407a0324d2bddc40a10c2351b2ee02d0cefa91de8e39f",
         "signature": "c818bb7bdcdae1641bb1973cca8f11a49d0c80c03dce46335f9f3d4f1f652943",
         "affectsGlobalScope": false
       },
@@ -1447,13 +1447,13 @@
         "affectsGlobalScope": false
       },
       "../src/collections/wirelessHeadphones/dto/create-wirelessHeadphones.dto.ts": {
-        "version": "cc577d05168fa43b17e86d7186ec1d937ae4ca40f96167a12f3bf76a59ee5235",
-        "signature": "25ecc6fc95c4ebb78a3b5f6909836dc50985bd74431a4f093a2357857c97475a",
+        "version": "9e4eb2b8b0797d6f4c69a59d0951dc75a67682af34603b8b8c741fbce18af03a",
+        "signature": "b293beb18aafa356615b64dc4ccec8161c5a9901b6a338894b4e06fcf2e00138",
         "affectsGlobalScope": false
       },
       "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts": {
-        "version": "90111c362f6d76f779aadcc5e6a10b7e51a89197be49a70a404c587a3d5b9cec",
-        "signature": "90111c362f6d76f779aadcc5e6a10b7e51a89197be49a70a404c587a3d5b9cec",
+        "version": "692c79143d86898a257eaf2b06fcd15f00668f6b44d41b258e9f16e097d9d445",
+        "signature": "692c79143d86898a257eaf2b06fcd15f00668f6b44d41b258e9f16e097d9d445",
         "affectsGlobalScope": false
       },
       "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts": {
@@ -1467,7 +1467,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/wirelessHeadphones/schemas/wirelessHeadphones.schema.ts": {
-        "version": "854753724cb68830f6e85ff66f076ad3f2d61b2a953c7425d52f0d7f3d586a06",
+        "version": "c9fdce0b6be094817571fbecb939cb6858871f4b5c0d0ed43b62463df78fef56",
         "signature": "1e568693fbae03fbe6f2df1e54b1c94b8e345b22630b5d9bb4bdfb2e645e0430",
         "affectsGlobalScope": false
       },
@@ -1667,7 +1667,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "6a5bd854e9bdf1dad4871749ff039035ba4e355e43950cbbbb3f7852dea3cc2a",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },

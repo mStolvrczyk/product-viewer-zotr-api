@@ -3,7 +3,7 @@ export interface WirelessHeadphones {
     readonly brand: string;
     readonly model: string;
     readonly batteryWorkTime: string;
-    readonly volumeRegulation: boolean;
+    readonly type: string;
     readonly microphone: boolean;
     readonly reach: string;
     readonly description: string;

@@ -6,9 +6,9 @@ export const MouseSchema = new mongoose.Schema({
     model: String,
     dpi: String,
     numberOfButtons: String,
-    backlight: Boolean,
-    sensorType: String,
-    wireless: Boolean,
+    interface: String,
+    profile: String,
+    connection: String,
     gamingMouse: Boolean,
     description: String,
     price: String

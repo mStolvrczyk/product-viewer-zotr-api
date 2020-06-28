@@ -4,7 +4,7 @@ export class CreateSmartphoneDto {
     readonly model: string;
     readonly screen: string;
     readonly battery: string;
-    readonly ram: number;
+    readonly ram: string;
     readonly memory: string;
     readonly description: string;
     readonly price: string;

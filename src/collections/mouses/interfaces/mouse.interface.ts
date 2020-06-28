@@ -4,9 +4,9 @@ export interface Mouse {
     readonly model: string;
     readonly dpi: string;
     readonly numberOfButtons: string;
-    readonly backlight: boolean;
-    readonly sensorType: string;
-    readonly wireless: boolean;
+    readonly interface: string;
+    readonly profile: string;
+    readonly connection: string;
     readonly gamingMouse: boolean;
     readonly description: string;
     readonly price: string;

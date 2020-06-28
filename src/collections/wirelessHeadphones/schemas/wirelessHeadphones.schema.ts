@@ -5,7 +5,7 @@ export const WirelessHeadphonesSchema = new mongoose.Schema({
     brand: String,
     model: String,
     batteryWorkTime: String,
-    volumeRegulation: Boolean,
+    type: String,
     microphone: Boolean,
     reach: String,
     description: String,
