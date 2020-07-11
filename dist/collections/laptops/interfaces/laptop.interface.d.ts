@@ -2,7 +2,7 @@ export interface Laptop {
     readonly imagePath: string;
     readonly brand: string;
     readonly model: string;
-    readonly ram: number;
+    readonly ram: string;
     readonly cpu: string;
     readonly gpu: string;
     readonly drive: string;

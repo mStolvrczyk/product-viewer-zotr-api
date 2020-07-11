@@ -6,7 +6,7 @@ exports.LaptopSchema = new mongoose.Schema({
     imagePath: String,
     brand: String,
     model: String,
-    ram: Number,
+    ram: String,
     cpu: String,
     gpu: String,
     drive: String,
