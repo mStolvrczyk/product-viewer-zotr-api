@@ -1307,13 +1307,13 @@
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/services/keyboards.service.ts": {
-        "version": "f8d0fe0a45d5e38618f39d2497a43b16038627d67af4523df93ff2c4db0dcbda",
-        "signature": "42bb047b9fa7c0a6858a34808499407137be65f603a986b746b979e007925163",
+        "version": "3b2ca3c5566115e75f30d518a1b241562578795fe92a5a027f021e16ebd960c0",
+        "signature": "3f5326b5dcf21e928785a3e1db56c9ed99b14d0ce4b422878a4c365bd43b4903",
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/controllers/keyboards.ts": {
-        "version": "f7f0b1340be6102ce6641ee484b090ad9834d9b48f20afc93c0a15bcace30a9a",
-        "signature": "00ef271099fa56ba4c6b929c69bf034e3e25ae727c95f5f43c91bb56ea491dc0",
+        "version": "40d4479c82395c60011cef02dfea6abfa551bd0a54ee3bb2cb2972160475c41e",
+        "signature": "259372701fd40c67134d9d41cce580adf0e60adab4ab45bcef0cca998e08ef46",
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/schemas/keyboard.schema.ts": {

@@ -23,8 +23,8 @@ let KeyboardsController = class KeyboardsController {
     async findAll() {
         return this.keyboardsService.findAll();
     }
-    async findOne(id) {
-        return this.keyboardsService.findOne(id);
+    async findOne(brand) {
+        return this.keyboardsService.findKeyboardType(brand);
     }
     create(createKeyboardDto) {
         return this.keyboardsService.create(createKeyboardDto);

@@ -5,6 +5,6 @@ export declare class KeyboardsController {
     private readonly keyboardsService;
     constructor(keyboardsService: KeyboardsService);
     findAll(): Promise<Keyboard[]>;
-    findOne(id: any): Promise<Keyboard>;
+    findOne(brand: any): Promise<Keyboard>;
     create(createKeyboardDto: CreateKeyboardDto): Promise<Keyboard>;
 }

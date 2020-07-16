@@ -12,8 +12,8 @@ export class KeyboardsController {
         return this.keyboardsService.findAll()
     }
     @Get(':id')
-    async findOne(@Param('id') id): Promise<Keyboard> {
-        return this.keyboardsService.findOne(id);
+    async findOne(@Param('id') brand): Promise<Keyboard> {
+        return this.keyboardsService.findKeyboardType(brand);
     }
     @Post()
     create(@Body() createKeyboardDto: CreateKeyboardDto): Promise<Keyboard> {
