@@ -24,8 +24,8 @@ let MousesService = class MousesService {
     async findAll() {
         return await this.mouseModel.find();
     }
-    async findOne(id) {
-        return await this.mouseModel.findOne({ _id: id });
+    async findMouseType(gamingMouse) {
+        return await this.mouseModel.find({ gamingMouse: gamingMouse });
     }
     async create(mouse) {
         const newMouse = new this.mouseModel(mouse);

@@ -12,22 +12,22 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.KeyboardsController = void 0;
+exports.SmartphonesController = void 0;
 const common_1 = require("@nestjs/common");
-const create_keyboard_dto_1 = require("../dto/create-keyboard.dto");
-const keyboards_service_1 = require("../services/keyboards.service");
-let KeyboardsController = class KeyboardsController {
-    constructor(keyboardsService) {
-        this.keyboardsService = keyboardsService;
+const create_smartphone_dto_1 = require("../dto/create-smartphone.dto");
+const smartphones_service_1 = require("../services/smartphones.service");
+let SmartphonesController = class SmartphonesController {
+    constructor(smartphonesService) {
+        this.smartphonesService = smartphonesService;
     }
     async findAll() {
-        return this.keyboardsService.findAll();
+        return this.smartphonesService.findAll();
     }
-    async findKeyboardType(gamingKeyboard) {
-        return this.keyboardsService.findKeyboardType(gamingKeyboard);
+    async findOne(id) {
+        return this.smartphonesService.findOne(id);
     }
-    create(createKeyboardDto) {
-        return this.keyboardsService.create(createKeyboardDto);
+    create(createSmartphoneDto) {
+        return this.smartphonesService.create(createSmartphoneDto);
     }
 };
 __decorate([
@@ -35,24 +35,24 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
-], KeyboardsController.prototype, "findAll", null);
+], SmartphonesController.prototype, "findAll", null);
 __decorate([
-    common_1.Get(':gamingKeyboard'),
-    __param(0, common_1.Param('gamingKeyboard')),
+    common_1.Get(':id'),
+    __param(0, common_1.Param('id')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
-], KeyboardsController.prototype, "findKeyboardType", null);
+], SmartphonesController.prototype, "findOne", null);
 __decorate([
     common_1.Post(),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [create_keyboard_dto_1.CreateKeyboardDto]),
+    __metadata("design:paramtypes", [create_smartphone_dto_1.CreateSmartphoneDto]),
     __metadata("design:returntype", Promise)
-], KeyboardsController.prototype, "create", null);
-KeyboardsController = __decorate([
-    common_1.Controller('keyboards'),
-    __metadata("design:paramtypes", [keyboards_service_1.KeyboardsService])
-], KeyboardsController);
-exports.KeyboardsController = KeyboardsController;
-//# sourceMappingURL=keyboards.js.map
+], SmartphonesController.prototype, "create", null);
+SmartphonesController = __decorate([
+    common_1.Controller('smartphones'),
+    __metadata("design:paramtypes", [smartphones_service_1.SmartphonesService])
+], SmartphonesController);
+exports.SmartphonesController = SmartphonesController;
+//# sourceMappingURL=smartphones.controller.js.map

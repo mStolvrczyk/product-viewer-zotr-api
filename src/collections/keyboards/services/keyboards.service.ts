@@ -11,8 +11,8 @@ export class KeyboardsService {
         return await this.keyboardModel.find();
     }
 
-    async findKeyboardType(brand: string): Promise<Keyboard> {
-        return await this.keyboardModel.findOne({ id: brand });
+    async findKeyboardType(gamingKeyboard: boolean): Promise<Keyboard> {
+        return await this.keyboardModel.find({ gamingKeyboard: gamingKeyboard });
     }
 
     async create(keyboard: Keyboard): Promise<Keyboard> {

@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { MonitorsController } from './controllers/monitors';
+import { MonitorsController } from './controllers/monitors.controller';
 import { MonitorsService } from './services/monitors.service';
 import { MonitorSchema } from './schemas/monitor.schema';
 

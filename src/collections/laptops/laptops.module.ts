@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { LaptopsController } from './controllers/laptops';
+import { LaptopsController } from './controllers/laptops.controller';
 import { LaptopsService } from './services/laptops.service';
 import { LaptopSchema } from './schemas/laptop.schema';
 

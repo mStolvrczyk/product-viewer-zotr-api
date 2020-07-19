@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MonitorsModule = void 0;
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
-const monitors_1 = require("./controllers/monitors");
+const monitors_controller_1 = require("./controllers/monitors.controller");
 const monitors_service_1 = require("./services/monitors.service");
 const monitor_schema_1 = require("./schemas/monitor.schema");
 let MonitorsModule = class MonitorsModule {
@@ -17,7 +17,7 @@ let MonitorsModule = class MonitorsModule {
 MonitorsModule = __decorate([
     common_1.Module({
         imports: [mongoose_1.MongooseModule.forFeature([{ name: 'Monitor', schema: monitor_schema_1.MonitorSchema }])],
-        controllers: [monitors_1.MonitorsController],
+        controllers: [monitors_controller_1.MonitorsController],
         providers: [monitors_service_1.MonitorsService],
     })
 ], MonitorsModule);

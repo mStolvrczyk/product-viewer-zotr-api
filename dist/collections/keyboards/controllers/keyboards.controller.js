@@ -55,4 +55,4 @@ KeyboardsController = __decorate([
     __metadata("design:paramtypes", [keyboards_service_1.KeyboardsService])
 ], KeyboardsController);
 exports.KeyboardsController = KeyboardsController;
-//# sourceMappingURL=keyboards.js.map
+//# sourceMappingURL=keyboards.controller.js.map

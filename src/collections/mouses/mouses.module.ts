@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { MousesController } from './controllers/mouses';
+import { MousesController } from './controllers/mouses.controller';
 import { MousesService } from './services/mouses.service';
 import { MouseSchema } from './schemas/mouse.schema';
 

@@ -11,9 +11,9 @@ export class MousesController {
     async findAll(): Promise<Mouse[]> {
         return this.mousesService.findAll()
     }
-    @Get(':id')
-    async findOne(@Param('id') id): Promise<Mouse> {
-        return this.mousesService.findOne(id);
+    @Get(':gamingMouse')
+    async findMouseType(@Param('gamingMouse') gamingMouse): Promise<Mouse> {
+        return this.mousesService.findMouseType(gamingMouse);
     }
     @Post()
     create(@Body() createMouseDto: CreateMouseDto): Promise<Mouse> {

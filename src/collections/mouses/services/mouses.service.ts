@@ -11,8 +11,8 @@ export class MousesService {
         return await this.mouseModel.find();
     }
 
-    async findOne(id: string): Promise<Mouse> {
-        return await this.mouseModel.findOne({ _id: id });
+    async findMouseType(gamingMouse: boolean): Promise<Mouse> {
+        return await this.mouseModel.find({ gamingMouse: gamingMouse });
     }
 
     async create(mouse: Mouse): Promise<Mouse> {

@@ -24,8 +24,8 @@ let KeyboardsService = class KeyboardsService {
     async findAll() {
         return await this.keyboardModel.find();
     }
-    async findKeyboardType(brand) {
-        return await this.keyboardModel.findOne({ id: brand });
+    async findKeyboardType(gamingKeyboard) {
+        return await this.keyboardModel.find({ gamingKeyboard: gamingKeyboard });
     }
     async create(keyboard) {
         const newKeyboard = new this.keyboardModel(keyboard);

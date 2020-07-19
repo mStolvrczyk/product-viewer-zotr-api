@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MousesModule = void 0;
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
-const mouses_1 = require("./controllers/mouses");
+const mouses_controller_1 = require("./controllers/mouses.controller");
 const mouses_service_1 = require("./services/mouses.service");
 const mouse_schema_1 = require("./schemas/mouse.schema");
 let MousesModule = class MousesModule {
@@ -17,7 +17,7 @@ let MousesModule = class MousesModule {
 MousesModule = __decorate([
     common_1.Module({
         imports: [mongoose_1.MongooseModule.forFeature([{ name: 'Mouse', schema: mouse_schema_1.MouseSchema }])],
-        controllers: [mouses_1.MousesController],
+        controllers: [mouses_controller_1.MousesController],
         providers: [mouses_service_1.MousesService],
     })
 ], MousesModule);

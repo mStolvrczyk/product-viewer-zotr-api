@@ -1307,13 +1307,13 @@
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/services/keyboards.service.ts": {
-        "version": "3b2ca3c5566115e75f30d518a1b241562578795fe92a5a027f021e16ebd960c0",
-        "signature": "3f5326b5dcf21e928785a3e1db56c9ed99b14d0ce4b422878a4c365bd43b4903",
+        "version": "963423c36cddeeae4a171e7b38435ed26de2bd539f0e6f8c9010a16f9f074657",
+        "signature": "d8963e28e904abde6f1e839fbb75b1c4028cbf52407ccd96c183a49ddcce094c",
         "affectsGlobalScope": false
       },
-      "../src/collections/keyboards/controllers/keyboards.ts": {
-        "version": "40d4479c82395c60011cef02dfea6abfa551bd0a54ee3bb2cb2972160475c41e",
-        "signature": "259372701fd40c67134d9d41cce580adf0e60adab4ab45bcef0cca998e08ef46",
+      "../src/collections/keyboards/controllers/keyboards.controller.ts": {
+        "version": "f6c8347b6da6c6a1bd899e5bb31471415a7bf0340bfb2e49ac6ba1e1676e148f",
+        "signature": "8d53b01d0cc2d9f82813c12c5b3d9217978b9cd357f19d30da1f5cd7914820d1",
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/schemas/keyboard.schema.ts": {
@@ -1322,7 +1322,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/keyboards/keyboards.module.ts": {
-        "version": "e424dd2489320253af0cd8da8125f9f154ec3e1cb17e3df4cbe09f6d7aabf16d",
+        "version": "95740e7ea1b33d2ff44803b7b78b3954f0c2e38bdba3cacc0e6929d596dbfc1b",
         "signature": "a7171d91de4c87006b4850baa10bab19912a28321a283a869fe1e959962d4ad0",
         "affectsGlobalScope": false
       },
@@ -1341,7 +1341,7 @@
         "signature": "353c46df17c84aac690f25c0a4575b0bb2e772131d5552f4077e14c0c21b3f99",
         "affectsGlobalScope": false
       },
-      "../src/collections/laptops/controllers/laptops.ts": {
+      "../src/collections/laptops/controllers/laptops.controller.ts": {
         "version": "6b396e683f0d085ffbb979c3eccae6e064184b7595723ed1589000a25db2e613",
         "signature": "79dc85098fe4dba8b1d426a5350e38799f0acb4147061216211c3c85a8af4ffd",
         "affectsGlobalScope": false
@@ -1352,7 +1352,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/laptops.module.ts": {
-        "version": "585d8cebefa24071338b21221632bf399e994f48840ed777488477c0095cca4d",
+        "version": "49e9b11e6922de6e8605967418bba01eb81d3f16b7a5f2f2de023c93398abf5d",
         "signature": "ed14f6ce3c341fbf01ef907dbacdce5d522decb39a4cd2cd15116b877aadcdbe",
         "affectsGlobalScope": false
       },
@@ -1371,7 +1371,7 @@
         "signature": "4bc0d575a1faa524836e458e4c0335c12b0a6039b5f9100b52d64b582231c551",
         "affectsGlobalScope": false
       },
-      "../src/collections/monitors/controllers/monitors.ts": {
+      "../src/collections/monitors/controllers/monitors.controller.ts": {
         "version": "5605127ecec02902013b1b55d7f53acde97bdecc38fa2eb77d28153f0564df0b",
         "signature": "3e4b63683743428a59a3dd1f2da69cf253371f47f615c13b3677464c22a54cc4",
         "affectsGlobalScope": false
@@ -1382,7 +1382,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/monitors/monitors.module.ts": {
-        "version": "840a045102dd92332c7437037a3dc2198e2de3ecbb16800845a119d93c692e57",
+        "version": "4a73eab16e661d400d744531b264771eaa69f2e0f73092b62b25adad9a8fdce2",
         "signature": "4608028a473406b643d8c38fbb744d4199513cea20bf38dfb7f0ba70506db36c",
         "affectsGlobalScope": false
       },
@@ -1397,13 +1397,13 @@
         "affectsGlobalScope": false
       },
       "../src/collections/mouses/services/mouses.service.ts": {
-        "version": "0c09ad67bd9cbef2ded16d036d133575aa16246b265cd07717686f89c7703783",
-        "signature": "cc5c6cb381c0598a618ce2d65a6009fde3cbb627947170fc35ae26aff0880af4",
+        "version": "6609e9996d907afc4e717efa30c2ea3c3284757b1260d132653bffb9dd68f882",
+        "signature": "332a2a9a3de8482d317c31b27afd842e4bf418da478940f07a7da152cc75e82a",
         "affectsGlobalScope": false
       },
-      "../src/collections/mouses/controllers/mouses.ts": {
-        "version": "3b41600a0d5700634b47e69f5b67fe97121a78d4f8aa774f4eacb704e6724aab",
-        "signature": "20716daf0a524fa16dfaf971d7d9e6e91b0d7097b18acd6ee208f1fb39597710",
+      "../src/collections/mouses/controllers/mouses.controller.ts": {
+        "version": "e12e62c2c270e2c304fff918f54b3e3553d119e80e0495a0ef7895673320176f",
+        "signature": "ee005548b288b5294c18ec5ecf30688d451f739a87a16dd7da13b2ec90729cee",
         "affectsGlobalScope": false
       },
       "../src/collections/mouses/schemas/mouse.schema.ts": {
@@ -1412,7 +1412,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/mouses/mouses.module.ts": {
-        "version": "e389b4fa91242a0af09b14131e678cc8cbe9e3d7ee2820fb46250af8e8d6f238",
+        "version": "fa5f91bfdbe7e14164f8373f2b965fa92c6faf03ff9516f665a2bb9678be61a0",
         "signature": "dbe06946980cdb0565d713da179fd65c61f1b93e56253150479aa269185d4b89",
         "affectsGlobalScope": false
       },
@@ -1431,7 +1431,7 @@
         "signature": "d189456eedaa49cd1e6d27fc6e1ad3981be060b02e80e27c1df6132255687bea",
         "affectsGlobalScope": false
       },
-      "../src/collections/smartphones/controllers/smartphones.ts": {
+      "../src/collections/smartphones/controllers/smartphones.controller.ts": {
         "version": "c98cebb5cb72ff4de89840d14060b536d3baa945906cf6c68c10ec1a8800be9a",
         "signature": "d9e111f0653a419673abedd2e40d318e1b442a81448c5f00d3dd9e21f2f9df23",
         "affectsGlobalScope": false
@@ -1442,7 +1442,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/smartphones.module.ts": {
-        "version": "cb8fdfc4c8b146d57401acb66dd5bb14bfbf806237c7fc45990a33ea577ebf2d",
+        "version": "b912ec881d9b55d99a16bce5d5ef221b73f85193921dbafdee939cdbd0f574ee",
         "signature": "5f37c794e45cf9357e4b795709b553ba4bc464584f687bc5c574deeda3c69d92",
         "affectsGlobalScope": false
       },
@@ -1461,7 +1461,7 @@
         "signature": "538d24631673587204567138324a1542ced7ddcfe616598c426d68d36e46e26c",
         "affectsGlobalScope": false
       },
-      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.ts": {
+      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.controller.ts": {
         "version": "d283aec99dc5ab00db14f8eacebf66ed4ed79c7508ee865db4766e3e3f338d9a",
         "signature": "b4272d1e5a4985228eba017d0826fa683aa99119efa759a43208f077caf85245",
         "affectsGlobalScope": false
@@ -1472,7 +1472,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/wirelessHeadphones/wirelessHeadphones.module.ts": {
-        "version": "a509063a752be9b98ced9602084b802e71eb6edc1fa081e387a1e53c2c63d533",
+        "version": "359591033f34b70ec9522e9e8ee12f43f17bbd52eb7ffc5454df9f48a69f5552",
         "signature": "c9bb44e3575c5e2c7a2cf1db3fdc39fe62db1fb8ed893e8cff99c5a9d7cc905f",
         "affectsGlobalScope": false
       },
@@ -5722,7 +5722,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts"
       ],
-      "../src/collections/keyboards/controllers/keyboards.ts": [
+      "../src/collections/keyboards/controllers/keyboards.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -5755,7 +5755,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/collections/keyboards/controllers/keyboards.ts",
+        "../src/collections/keyboards/controllers/keyboards.controller.ts",
         "../src/collections/keyboards/schemas/keyboard.schema.ts",
         "../src/collections/keyboards/services/keyboards.service.ts"
       ],
@@ -5776,7 +5776,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/collections/keyboards/interfaces/keyboard.interface.ts"
       ],
-      "../src/collections/laptops/controllers/laptops.ts": [
+      "../src/collections/laptops/controllers/laptops.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -5809,7 +5809,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/collections/laptops/controllers/laptops.ts",
+        "../src/collections/laptops/controllers/laptops.controller.ts",
         "../src/collections/laptops/schemas/laptop.schema.ts",
         "../src/collections/laptops/services/laptops.service.ts"
       ],
@@ -5830,7 +5830,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/collections/laptops/interfaces/laptop.interface.ts"
       ],
-      "../src/collections/monitors/controllers/monitors.ts": [
+      "../src/collections/monitors/controllers/monitors.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -5863,7 +5863,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/collections/monitors/controllers/monitors.ts",
+        "../src/collections/monitors/controllers/monitors.controller.ts",
         "../src/collections/monitors/schemas/monitor.schema.ts",
         "../src/collections/monitors/services/monitors.service.ts"
       ],
@@ -5884,7 +5884,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/collections/monitors/interfaces/monitor.interface.ts"
       ],
-      "../src/collections/mouses/controllers/mouses.ts": [
+      "../src/collections/mouses/controllers/mouses.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -5917,7 +5917,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/collections/mouses/controllers/mouses.ts",
+        "../src/collections/mouses/controllers/mouses.controller.ts",
         "../src/collections/mouses/schemas/mouse.schema.ts",
         "../src/collections/mouses/services/mouses.service.ts"
       ],
@@ -5938,7 +5938,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/collections/mouses/interfaces/mouse.interface.ts"
       ],
-      "../src/collections/smartphones/controllers/smartphones.ts": [
+      "../src/collections/smartphones/controllers/smartphones.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -5988,11 +5988,11 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/collections/smartphones/controllers/smartphones.ts",
+        "../src/collections/smartphones/controllers/smartphones.controller.ts",
         "../src/collections/smartphones/schemas/smartphone.schema.ts",
         "../src/collections/smartphones/services/smartphones.service.ts"
       ],
-      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.ts": [
+      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -6042,7 +6042,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.ts",
+        "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.controller.ts",
         "../src/collections/wirelessHeadphones/schemas/wirelessHeadphones.schema.ts",
         "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts"
       ],
@@ -9473,7 +9473,7 @@
       "../src/collections/graphicsCards/services/graphicsCards.service.ts": [
         "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts"
       ],
-      "../src/collections/keyboards/controllers/keyboards.ts": [
+      "../src/collections/keyboards/controllers/keyboards.controller.ts": [
         "../src/collections/keyboards/dto/create-keyboard.dto.ts",
         "../src/collections/keyboards/interfaces/keyboard.interface.ts",
         "../src/collections/keyboards/services/keyboards.service.ts"
@@ -9481,20 +9481,42 @@
       "../src/collections/keyboards/services/keyboards.service.ts": [
         "../src/collections/keyboards/interfaces/keyboard.interface.ts"
       ],
+      "../src/collections/laptops/controllers/laptops.controller.ts": [
+        "../src/collections/laptops/dto/create-laptop.dto.ts",
+        "../src/collections/laptops/interfaces/laptop.interface.ts",
+        "../src/collections/laptops/services/laptops.service.ts"
+      ],
       "../src/collections/laptops/services/laptops.service.ts": [
         "../src/collections/laptops/interfaces/laptop.interface.ts"
+      ],
+      "../src/collections/monitors/controllers/monitors.controller.ts": [
+        "../src/collections/monitors/dto/create-monitor.dto.ts",
+        "../src/collections/monitors/interfaces/monitor.interface.ts",
+        "../src/collections/monitors/services/monitors.service.ts"
       ],
       "../src/collections/monitors/services/monitors.service.ts": [
         "../src/collections/monitors/interfaces/monitor.interface.ts"
       ],
+      "../src/collections/mouses/controllers/mouses.controller.ts": [
+        "../src/collections/mouses/dto/create-mouse.dto.ts",
+        "../src/collections/mouses/interfaces/mouse.interface.ts",
+        "../src/collections/mouses/services/mouses.service.ts"
+      ],
       "../src/collections/mouses/services/mouses.service.ts": [
         "../src/collections/mouses/interfaces/mouse.interface.ts"
       ],
-      "../src/collections/smartphones/controllers/smartphones.ts": [
-        "../src/collections/smartphones/dto/create-smartphone.dto.ts"
+      "../src/collections/smartphones/controllers/smartphones.controller.ts": [
+        "../src/collections/smartphones/dto/create-smartphone.dto.ts",
+        "../src/collections/smartphones/interfaces/smartphone.interface.ts",
+        "../src/collections/smartphones/services/smartphones.service.ts"
       ],
       "../src/collections/smartphones/services/smartphones.service.ts": [
         "../src/collections/smartphones/interfaces/smartphone.interface.ts"
+      ],
+      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.controller.ts": [
+        "../src/collections/wirelessHeadphones/dto/create-wirelessHeadphones.dto.ts",
+        "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts",
+        "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts"
       ],
       "../src/collections/wirelessHeadphones/services/wirelessHeadphones.service.ts": [
         "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts"
@@ -9897,37 +9919,37 @@
       "../src/collections/graphicsCards/interfaces/graphicsCard.interface.ts",
       "../src/collections/graphicsCards/schemas/graphicsCard.schema.ts",
       "../src/collections/graphicsCards/services/graphicsCards.service.ts",
-      "../src/collections/keyboards/controllers/keyboards.ts",
+      "../src/collections/keyboards/controllers/keyboards.controller.ts",
       "../src/collections/keyboards/dto/create-keyboard.dto.ts",
       "../src/collections/keyboards/interfaces/keyboard.interface.ts",
       "../src/collections/keyboards/keyboards.module.ts",
       "../src/collections/keyboards/schemas/keyboard.schema.ts",
       "../src/collections/keyboards/services/keyboards.service.ts",
-      "../src/collections/laptops/controllers/laptops.ts",
+      "../src/collections/laptops/controllers/laptops.controller.ts",
       "../src/collections/laptops/dto/create-laptop.dto.ts",
       "../src/collections/laptops/interfaces/laptop.interface.ts",
       "../src/collections/laptops/laptops.module.ts",
       "../src/collections/laptops/schemas/laptop.schema.ts",
       "../src/collections/laptops/services/laptops.service.ts",
-      "../src/collections/monitors/controllers/monitors.ts",
+      "../src/collections/monitors/controllers/monitors.controller.ts",
       "../src/collections/monitors/dto/create-monitor.dto.ts",
       "../src/collections/monitors/interfaces/monitor.interface.ts",
       "../src/collections/monitors/monitors.module.ts",
       "../src/collections/monitors/schemas/monitor.schema.ts",
       "../src/collections/monitors/services/monitors.service.ts",
-      "../src/collections/mouses/controllers/mouses.ts",
+      "../src/collections/mouses/controllers/mouses.controller.ts",
       "../src/collections/mouses/dto/create-mouse.dto.ts",
       "../src/collections/mouses/interfaces/mouse.interface.ts",
       "../src/collections/mouses/mouses.module.ts",
       "../src/collections/mouses/schemas/mouse.schema.ts",
       "../src/collections/mouses/services/mouses.service.ts",
-      "../src/collections/smartphones/controllers/smartphones.ts",
+      "../src/collections/smartphones/controllers/smartphones.controller.ts",
       "../src/collections/smartphones/dto/create-smartphone.dto.ts",
       "../src/collections/smartphones/interfaces/smartphone.interface.ts",
       "../src/collections/smartphones/schemas/smartphone.schema.ts",
       "../src/collections/smartphones/services/smartphones.service.ts",
       "../src/collections/smartphones/smartphones.module.ts",
-      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.ts",
+      "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.controller.ts",
       "../src/collections/wirelessHeadphones/dto/create-wirelessHeadphones.dto.ts",
       "../src/collections/wirelessHeadphones/interfaces/wirelessHeadphones.interface.ts",
       "../src/collections/wirelessHeadphones/schemas/wirelessHeadphones.schema.ts",

@@ -12,22 +12,22 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.KeyboardsController = void 0;
+exports.WirelessHeadphonesController = void 0;
 const common_1 = require("@nestjs/common");
-const create_keyboard_dto_1 = require("../dto/create-keyboard.dto");
-const keyboards_service_1 = require("../services/keyboards.service");
-let KeyboardsController = class KeyboardsController {
-    constructor(keyboardsService) {
-        this.keyboardsService = keyboardsService;
+const create_wirelessHeadphones_dto_1 = require("../dto/create-wirelessHeadphones.dto");
+const wirelessHeadphones_service_1 = require("../services/wirelessHeadphones.service");
+let WirelessHeadphonesController = class WirelessHeadphonesController {
+    constructor(wirelessHeadphonesService) {
+        this.wirelessHeadphonesService = wirelessHeadphonesService;
     }
     async findAll() {
-        return this.keyboardsService.findAll();
+        return this.wirelessHeadphonesService.findAll();
     }
-    async findKeyboardType(gamingKeyboard) {
-        return this.keyboardsService.findKeyboardType(gamingKeyboard);
+    async findOne(id) {
+        return this.wirelessHeadphonesService.findOne(id);
     }
-    create(createKeyboardDto) {
-        return this.keyboardsService.create(createKeyboardDto);
+    create(createWirelessHeadphonesDto) {
+        return this.wirelessHeadphonesService.create(createWirelessHeadphonesDto);
     }
 };
 __decorate([
@@ -35,24 +35,24 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
-], KeyboardsController.prototype, "findAll", null);
+], WirelessHeadphonesController.prototype, "findAll", null);
 __decorate([
-    common_1.Get(':gamingKeyboard'),
-    __param(0, common_1.Param('gamingKeyboard')),
+    common_1.Get(':id'),
+    __param(0, common_1.Param('id')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
-], KeyboardsController.prototype, "findKeyboardType", null);
+], WirelessHeadphonesController.prototype, "findOne", null);
 __decorate([
     common_1.Post(),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [create_keyboard_dto_1.CreateKeyboardDto]),
+    __metadata("design:paramtypes", [create_wirelessHeadphones_dto_1.CreateWirelessHeadphonesDto]),
     __metadata("design:returntype", Promise)
-], KeyboardsController.prototype, "create", null);
-KeyboardsController = __decorate([
-    common_1.Controller('keyboards'),
-    __metadata("design:paramtypes", [keyboards_service_1.KeyboardsService])
-], KeyboardsController);
-exports.KeyboardsController = KeyboardsController;
-//# sourceMappingURL=keyboards.js.map
+], WirelessHeadphonesController.prototype, "create", null);
+WirelessHeadphonesController = __decorate([
+    common_1.Controller('wirelessHeadphones'),
+    __metadata("design:paramtypes", [wirelessHeadphones_service_1.WirelessHeadphonesService])
+], WirelessHeadphonesController);
+exports.WirelessHeadphonesController = WirelessHeadphonesController;
+//# sourceMappingURL=wirelessHeadphones.controller.js.map

@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.KeyboardsModule = void 0;
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
-const keyboards_1 = require("./controllers/keyboards");
+const keyboards_controller_1 = require("./controllers/keyboards.controller");
 const keyboards_service_1 = require("./services/keyboards.service");
 const keyboard_schema_1 = require("./schemas/keyboard.schema");
 let KeyboardsModule = class KeyboardsModule {
@@ -17,7 +17,7 @@ let KeyboardsModule = class KeyboardsModule {
 KeyboardsModule = __decorate([
     common_1.Module({
         imports: [mongoose_1.MongooseModule.forFeature([{ name: 'Keyboard', schema: keyboard_schema_1.KeyboardSchema }])],
-        controllers: [keyboards_1.KeyboardsController],
+        controllers: [keyboards_controller_1.KeyboardsController],
         providers: [keyboards_service_1.KeyboardsService],
     })
 ], KeyboardsModule);

@@ -4,6 +4,6 @@ export declare class MousesService {
     private readonly mouseModel;
     constructor(mouseModel: Model<Mouse>);
     findAll(): Promise<Mouse[]>;
-    findOne(id: string): Promise<Mouse>;
+    findMouseType(gamingMouse: boolean): Promise<Mouse>;
     create(mouse: Mouse): Promise<Mouse>;
 }
