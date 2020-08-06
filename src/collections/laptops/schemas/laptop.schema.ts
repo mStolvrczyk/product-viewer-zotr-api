@@ -9,7 +9,7 @@ export const LaptopSchema = new mongoose.Schema({
     gpu: String,
     drive: String,
     matrix: String,
-    leasing: Boolean,
+    gamingLaptop: Boolean,
     description: String,
     price: String
 });

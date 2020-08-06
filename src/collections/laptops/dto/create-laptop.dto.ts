@@ -7,7 +7,7 @@ export class CreateLaptopDto {
     readonly gpu: string;
     readonly drive: string;
     readonly matrix: string;
-    readonly leasing: boolean;
+    readonly gamingLaptop: boolean;
     readonly description: string;
     readonly price: string;
 }
