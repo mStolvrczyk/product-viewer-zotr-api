@@ -7,7 +7,7 @@ export interface Laptop {
     readonly gpu: string;
     readonly drive: string;
     readonly matrix: string;
-    readonly gamingLaptop: boolean;
+    readonly type: string;
     readonly description: string;
     readonly price: string;
 }

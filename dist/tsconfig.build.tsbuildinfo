@@ -1327,27 +1327,27 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/dto/create-laptop.dto.ts": {
-        "version": "d4d8041763ee3d978368a1643d7ca2f64cef1d3fed9bab58ed41c81c3911bae5",
-        "signature": "3a94f46c0dc7c1b5f18739989532bc19a4fbda1728e7008c0ef5fb7ebf13abfb",
+        "version": "490155c9071a8a1f3bf77a6247cc7a131efb016971dd6627d9b1ba15ccfa59c7",
+        "signature": "8b3bf92994a1c67324697578458df1bef9270c8ad3fa3d55749bb19c9cc37956",
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/interfaces/laptop.interface.ts": {
-        "version": "3f38290378e99080630a4fb7200cd9950783739502ec82a871a3a98d9e5a1030",
-        "signature": "3f38290378e99080630a4fb7200cd9950783739502ec82a871a3a98d9e5a1030",
+        "version": "43dcc7b916f61b1f5cf804066d7ec4c977e62d7cdc158e28cb4ef71c1c69a325",
+        "signature": "43dcc7b916f61b1f5cf804066d7ec4c977e62d7cdc158e28cb4ef71c1c69a325",
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/services/laptops.service.ts": {
-        "version": "ffb145a9d10dace95316a661469022092027fb50fc52934b0eb090f7401141c0",
-        "signature": "353c46df17c84aac690f25c0a4575b0bb2e772131d5552f4077e14c0c21b3f99",
+        "version": "cdfae650c01b1c3ac585cd645428a54d40437649e66f58b814fb4425167cdf95",
+        "signature": "d71a1e9827d6df07ff9e066ff7b21dbe30897c872c81d25c2f98f116efca3182",
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/controllers/laptops.controller.ts": {
-        "version": "6b396e683f0d085ffbb979c3eccae6e064184b7595723ed1589000a25db2e613",
-        "signature": "79dc85098fe4dba8b1d426a5350e38799f0acb4147061216211c3c85a8af4ffd",
+        "version": "341a6a65da065e600f9df11c45743a88884a60859e10d7900b49a0c2b44456d8",
+        "signature": "12d23b06a420117b4b23e1e0a6f816b739c3c1bba37bfdf774d9a9716898fd97",
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/schemas/laptop.schema.ts": {
-        "version": "746756dd15d27694dd1fd2a78da2d6482cb55059d03513def4086c32bf528d9a",
+        "version": "05aa04a4a2ceb617f01b4de9341d14dea531e62ed1a908e2633604fe6afeb9e5",
         "signature": "e7f6aaa70e2b18229aa8321d07729200bcab89b66dd73ce4732cb9d3910b4d97",
         "affectsGlobalScope": false
       },

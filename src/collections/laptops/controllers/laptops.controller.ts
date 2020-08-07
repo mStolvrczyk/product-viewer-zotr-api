@@ -11,9 +11,9 @@ export class LaptopsController {
     async findAll(): Promise<Laptop[]> {
         return this.laptopsService.findAll()
     }
-    @Get(':id')
-    async findOne(@Param('id') id): Promise<Laptop> {
-        return this.laptopsService.findOne(id);
+    @Get(':type')
+    async findLaptopType(@Param('type') type): Promise<Laptop> {
+        return this.laptopsService.findLaptopType(type);
     }
     @Post()
     create(@Body() createLaptopDto: CreateLaptopDto): Promise<Laptop> {

@@ -5,6 +5,6 @@ export declare class LaptopsController {
     private readonly laptopsService;
     constructor(laptopsService: LaptopsService);
     findAll(): Promise<Laptop[]>;
-    findOne(id: any): Promise<Laptop>;
+    findLaptopType(type: any): Promise<Laptop>;
     create(createLaptopDto: CreateLaptopDto): Promise<Laptop>;
 }

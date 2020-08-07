@@ -11,8 +11,8 @@ export class LaptopsService {
         return await this.laptopModel.find();
     }
 
-    async findOne(id: string): Promise<Laptop> {
-        return await this.laptopModel.findOne({ _id: id });
+    async findLaptopType(type: string): Promise<Laptop> {
+        return await this.laptopModel.find({ type: type });
     }
 
     async create(laptop: Laptop): Promise<Laptop> {

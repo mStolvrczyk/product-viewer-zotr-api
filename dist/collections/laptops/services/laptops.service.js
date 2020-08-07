@@ -24,8 +24,8 @@ let LaptopsService = class LaptopsService {
     async findAll() {
         return await this.laptopModel.find();
     }
-    async findOne(id) {
-        return await this.laptopModel.findOne({ _id: id });
+    async findLaptopType(type) {
+        return await this.laptopModel.find({ type: type });
     }
     async create(laptop) {
         const newLaptop = new this.laptopModel(laptop);

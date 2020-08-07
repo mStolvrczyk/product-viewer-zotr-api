@@ -23,8 +23,8 @@ let LaptopsController = class LaptopsController {
     async findAll() {
         return this.laptopsService.findAll();
     }
-    async findOne(id) {
-        return this.laptopsService.findOne(id);
+    async findLaptopType(type) {
+        return this.laptopsService.findLaptopType(type);
     }
     create(createLaptopDto) {
         return this.laptopsService.create(createLaptopDto);
@@ -37,12 +37,12 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], LaptopsController.prototype, "findAll", null);
 __decorate([
-    common_1.Get(':id'),
-    __param(0, common_1.Param('id')),
+    common_1.Get(':type'),
+    __param(0, common_1.Param('type')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
-], LaptopsController.prototype, "findOne", null);
+], LaptopsController.prototype, "findLaptopType", null);
 __decorate([
     common_1.Post(),
     __param(0, common_1.Body()),
