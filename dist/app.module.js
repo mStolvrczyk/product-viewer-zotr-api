@@ -1,0 +1,33 @@
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AppModule = void 0;
+const common_1 = require("@nestjs/common");
+const app_controller_1 = require("./app.controller");
+const app_service_1 = require("./app.service");
+const drones_module_1 = require("./collections/drones/drones.module");
+const graphicsCards_module_1 = require("./collections/graphicsCards/graphicsCards.module");
+const keyboards_module_1 = require("./collections/keyboards/keyboards.module");
+const laptops_module_1 = require("./collections/laptops/laptops.module");
+const monitors_module_1 = require("./collections/monitors/monitors.module");
+const mouses_module_1 = require("./collections/mouses/mouses.module");
+const smartphones_module_1 = require("./collections/smartphones/smartphones.module");
+const wirelessHeadphones_module_1 = require("./collections/wirelessHeadphones/wirelessHeadphones.module");
+const mongoose_1 = require("@nestjs/mongoose");
+const keys_1 = require("./config/keys");
+let AppModule = class AppModule {
+};
+AppModule = __decorate([
+    common_1.Module({
+        imports: [drones_module_1.DronesModule, graphicsCards_module_1.GraphicsCardsModule, keyboards_module_1.KeyboardsModule, laptops_module_1.LaptopsModule, monitors_module_1.MonitorsModule, mouses_module_1.MousesModule, smartphones_module_1.SmartphonesModule, wirelessHeadphones_module_1.WirelessHeadphonesModule, mongoose_1.MongooseModule.forRoot(keys_1.default.mongoURI)],
+        controllers: [app_controller_1.AppController],
+        providers: [app_service_1.AppService],
+    })
+], AppModule);
+exports.AppModule = AppModule;
+//# sourceMappingURL=app.module.js.map
