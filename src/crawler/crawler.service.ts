@@ -22,7 +22,7 @@ export class CrawlerService {
         const data: ExampleCom[] = await this.crawler.fetch({
             waitFor: 3 * 100,
             // target: 'https://news.ycombinator.com',
-            target: 'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html',
+            target: 'https://www.x-kom.pl/p/517898-karta-graficzna-nvidia-msi-geforce-rtx-2070-super-gaming-x-8gb-gddr6.html?gclid=Cj0KCQjwwOz6BRCgARIsAKEG4FVf2zs35SZOE09seoEC7FHVJzzEiWuh_dDmxfJDzBCjJTg4IR40skgaAhHAEALw_wcB',
             fetch: {
                 brand: {
                     selector: 'span.bBGNsf > a'
@@ -41,13 +41,13 @@ export class CrawlerService {
                 },
                 description: {
                     selector: 'div.content > div:nth-of-type(1) > div.col-md-12 > div.text-center > div.col-md-12 > div.fresh-content > div.col-md-10 > p:nth-of-type(1)'
+                },
+                price: {
+                    selector: 'div.fkieai-0 > div.u7xnnm-0 > div.u7xnnm-1 > div.u7xnnm-4'
                 }
                 // chipset: {
                 //     selector: 'div.sc-13p5mv-2 > div:nth-of-type(3) > div:nth-of-type(2) '
                 // },
-                // price: {
-                //     selector: 'span.bBGNsf > a'
-                // }
             },
         });
         return data;
