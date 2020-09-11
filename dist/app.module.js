@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
+const crawler_module_1 = require("./crawler/crawler.module");
 const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const drones_module_1 = require("./collections/drones/drones.module");
@@ -24,7 +25,7 @@ let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [drones_module_1.DronesModule, graphicsCards_module_1.GraphicsCardsModule, keyboards_module_1.KeyboardsModule, laptops_module_1.LaptopsModule, monitors_module_1.MonitorsModule, mouses_module_1.MousesModule, smartphones_module_1.SmartphonesModule, wirelessHeadphones_module_1.WirelessHeadphonesModule, mongoose_1.MongooseModule.forRoot(keys_1.default.mongoURI)],
+        imports: [drones_module_1.DronesModule, graphicsCards_module_1.GraphicsCardsModule, keyboards_module_1.KeyboardsModule, laptops_module_1.LaptopsModule, monitors_module_1.MonitorsModule, mouses_module_1.MousesModule, smartphones_module_1.SmartphonesModule, wirelessHeadphones_module_1.WirelessHeadphonesModule, crawler_module_1.CrawlerModule, mongoose_1.MongooseModule.forRoot(keys_1.default.mongoURI)],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })

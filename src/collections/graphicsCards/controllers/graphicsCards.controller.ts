@@ -3,7 +3,7 @@ import { CreateGraphicsCardDto } from '../dto/create-graphicsCard.dto';
 import { GraphicsCardsService } from '../services/graphicsCards.service';
 import { GraphicsCard } from '../interfaces/graphicsCard.interface';
 
-@Controller('graphicsCards')
+@Controller('graphiccsCards')
 export class GraphicsCardsController {
     constructor(private readonly graphicsCardsService: GraphicsCardsService) {}
 
