@@ -8,18 +8,45 @@ export class CrawlerService {
     ) {}
 
     // scraping the specific page
+    public async crawl(): Promise<unknown> {
+        interface HackerNewsPage {
+            title: string;
+        }
+
+        const pages: HackerNewsPage[] = await this.crawler.fetch({
+            target: {
+                url: 'https://news.ycombinator.com',
+                iterator: {
+                    selector: 'span.age > a',
+                    convert: (x: string) => `https://news.ycombinator.com/${x}`,
+                },
+            },
+            fetch: (data: any, index: number, url: string) => ({
+                title: '.title > a',
+            }),
+        });
+
+        // console.log(pages);
+        return pages
+        // [
+        //   { title: 'Post Title 1' },
+        //   { title: 'Post Title 2' },
+        //   ...
+        //   ...
+        //   { title: 'Post Title 30' }
+        // ]
+    }
     public async scrape(): Promise<unknown> {
-        interface ExampleCom {
+        interface GraphicsCard {
             brand: string;
             model: string;
             ram: string;
-            chipset: string;
             cpuClockSpeed: string;
-            ports: [];
+            ports: string;
             description: string;
             price: string;
         }
-        const data: ExampleCom[] = await this.crawler.fetch({
+        const details: GraphicsCard = await this.crawler.fetch({
             waitFor: 3 * 100,
             // target: 'https://news.ycombinator.com',
             target: 'https://www.x-kom.pl/p/517898-karta-graficzna-nvidia-msi-geforce-rtx-2070-super-gaming-x-8gb-gddr6.html?gclid=Cj0KCQjwwOz6BRCgARIsAKEG4FVf2zs35SZOE09seoEC7FHVJzzEiWuh_dDmxfJDzBCjJTg4IR40skgaAhHAEALw_wcB',
@@ -50,7 +77,19 @@ export class CrawlerService {
                 // },
             },
         });
-        return data;
+        const images: GraphicsCard[] = await this.crawler.fetch({
+            target: {
+                url: 'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
+                iterator: {
+                    selector: 'div.sc-13p5mv-2',
+                    // convert: (x: string) => `https://news.ycombinator.com/${x}`,
+                },
+            },
+            fetch: (data: any, index: number, url: string) => ({
+                images: 'div > div:nth-of-type(2)',
+            }),
+        });
+        return {details, images};
         // {
         //   title: 'Example Domain',
         //   info: 'http://www.iana.org/domains/example',
@@ -58,33 +97,33 @@ export class CrawlerService {
         // }
         // return 'kutas'
     }
-    public async crawl(): Promise<unknown> {
-        interface HackerNewsPage {
-            title: string;
-        }
-
-        const pages: HackerNewsPage[] = await this.crawler.fetch({
-            target: {
-                url: 'https://news.ycombinator.com',
-                iterator: {
-                    selector: 'span.age > a',
-                    convert: (x: string) => `https://news.ycombinator.com/${x}`,
-                },
-            },
-            fetch: (data: any, index: number, url: string) => ({
-                title: '.title > a',
-            }),
-        });
-
-        return pages;
-        // [
-        //   { title: 'Post Title 1' },
-        //   { title: 'Post Title 2' },
-        //   ...
-        //   ...
-        //   { title: 'Post Title 30' }
-        // ]
-    }
+    // public async crawl(): Promise<unknown> {
+    //     interface HackerNewsPage {
+    //         title: string;
+    //     }
+    //
+    //     const pages: HackerNewsPage[] = await this.crawler.fetch({
+    //         target: {
+    //             url: 'https://news.ycombinator.com',
+    //             iterator: {
+    //                 selector: 'span.age > a',
+    //                 convert: (x: string) => `https://news.ycombinator.com/${x}`,
+    //             },
+    //         },
+    //         fetch: (data: any, index: number, url: string) => ({
+    //             title: '.title > a',
+    //         }),
+    //     });
+    //
+    //     return pages;
+    //     // [
+    //     //   { title: 'Post Title 1' },
+    //     //   { title: 'Post Title 2' },
+    //     //   ...
+    //     //   ...
+    //     //   { title: 'Post Title 30' }
+    //     // ]
+    // }
 }
 
     // crawling multi pages is also supported

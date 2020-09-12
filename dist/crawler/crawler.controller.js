@@ -16,7 +16,7 @@ let CrawlerController = class CrawlerController {
     constructor(crawlerService) {
         this.crawlerService = crawlerService;
     }
-    getGraphicsCard() {
+    async getGraphicsCard() {
         return this.crawlerService.scrape();
     }
 };
@@ -24,7 +24,7 @@ __decorate([
     common_1.Get(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+    __metadata("design:returntype", Promise)
 ], CrawlerController.prototype, "getGraphicsCard", null);
 CrawlerController = __decorate([
     common_1.Controller('graphicsCards'),

@@ -8,7 +8,7 @@ export class CrawlerController {
     constructor(private readonly crawlerService: CrawlerService) {}
 
     @Get()
-    getGraphicsCard(): unknown {
+    async getGraphicsCard(): Promise<unknown> {
         return this.crawlerService.scrape()
     }
     // @Get(':id')

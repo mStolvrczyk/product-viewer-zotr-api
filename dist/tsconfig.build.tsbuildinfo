@@ -1467,13 +1467,13 @@
         "affectsGlobalScope": false
       },
       "../src/crawler/crawler.service.ts": {
-        "version": "ccd39f8d186d33730ec02960fbb225ebc377a15181a094336bba6d274259d941",
-        "signature": "f12199b685558eadd9be56e6a4d5910fd4aa6f2ad792d4b3ba1017ae6087566d",
+        "version": "c8e517021cb5e0f9958ecd7913874f654132e5f0fdb0e03842f533c958b3ddd4",
+        "signature": "8003ac22310da3b56be5bff617482a2905868b9459f8d547fbc4ab0dca1fa9b1",
         "affectsGlobalScope": false
       },
       "../src/crawler/crawler.controller.ts": {
-        "version": "747f83e7116209c045f9d37eeafea67e1b8371290c53b73eb2935b31df012a2b",
-        "signature": "fb0de9e7dd1d3a5d4ff53b09107837584381463627437942de222461b73488e3",
+        "version": "0d468ba59097aef81fb22b6beae6979bbeb4a380e70b9b0155a103f91e097861",
+        "signature": "152c931ebae5d74e04d25754c64d4077b99915ac6189d6272bb72babda5c301a",
         "affectsGlobalScope": false
       },
       "../src/crawler/crawler.module.ts": {

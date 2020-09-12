@@ -16,8 +16,23 @@ let CrawlerService = class CrawlerService {
     constructor(crawler) {
         this.crawler = crawler;
     }
+    async crawl() {
+        const pages = await this.crawler.fetch({
+            target: {
+                url: 'https://news.ycombinator.com',
+                iterator: {
+                    selector: 'span.age > a',
+                    convert: (x) => `https://news.ycombinator.com/${x}`,
+                },
+            },
+            fetch: (data, index, url) => ({
+                title: '.title > a',
+            }),
+        });
+        return pages;
+    }
     async scrape() {
-        const data = await this.crawler.fetch({
+        const details = await this.crawler.fetch({
             waitFor: 3 * 100,
             target: 'https://www.x-kom.pl/p/517898-karta-graficzna-nvidia-msi-geforce-rtx-2070-super-gaming-x-8gb-gddr6.html?gclid=Cj0KCQjwwOz6BRCgARIsAKEG4FVf2zs35SZOE09seoEC7FHVJzzEiWuh_dDmxfJDzBCjJTg4IR40skgaAhHAEALw_wcB',
             fetch: {
@@ -44,22 +59,18 @@ let CrawlerService = class CrawlerService {
                 }
             },
         });
-        return data;
-    }
-    async crawl() {
-        const pages = await this.crawler.fetch({
+        const images = await this.crawler.fetch({
             target: {
-                url: 'https://news.ycombinator.com',
+                url: 'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
                 iterator: {
-                    selector: 'span.age > a',
-                    convert: (x) => `https://news.ycombinator.com/${x}`,
+                    selector: 'div.sc-13p5mv-2',
                 },
             },
             fetch: (data, index, url) => ({
-                title: '.title > a',
+                images: 'div > div:nth-of-type(2)',
             }),
         });
-        return pages;
+        return { details, images };
     }
 };
 CrawlerService = __decorate([
