@@ -1467,7 +1467,7 @@
         "affectsGlobalScope": false
       },
       "../src/crawler/crawler.service.ts": {
-        "version": "c8e517021cb5e0f9958ecd7913874f654132e5f0fdb0e03842f533c958b3ddd4",
+        "version": "9b9eae2da6b6b341cb72b77b5da059e44664b90c3e28826da2305d12363f9822",
         "signature": "8003ac22310da3b56be5bff617482a2905868b9459f8d547fbc4ab0dca1fa9b1",
         "affectsGlobalScope": false
       },

@@ -23,6 +23,7 @@ export class CrawlerService {
             },
             fetch: (data: any, index: number, url: string) => ({
                 title: '.title > a',
+                dupa: 'span.age > a',
             }),
         });
 
@@ -45,10 +46,10 @@ export class CrawlerService {
             ports: string;
             description: string;
             price: string;
+            imagePath: string
         }
         const details: GraphicsCard = await this.crawler.fetch({
-            waitFor: 3 * 100,
-            // target: 'https://news.ycombinator.com',
+            waitFor: 3 * 1000,
             target: 'https://www.x-kom.pl/p/517898-karta-graficzna-nvidia-msi-geforce-rtx-2070-super-gaming-x-8gb-gddr6.html?gclid=Cj0KCQjwwOz6BRCgARIsAKEG4FVf2zs35SZOE09seoEC7FHVJzzEiWuh_dDmxfJDzBCjJTg4IR40skgaAhHAEALw_wcB',
             fetch: {
                 brand: {
@@ -72,21 +73,21 @@ export class CrawlerService {
                 price: {
                     selector: 'div.fkieai-0 > div.u7xnnm-0 > div.u7xnnm-1 > div.u7xnnm-4'
                 }
-                // chipset: {
-                //     selector: 'div.sc-13p5mv-2 > div:nth-of-type(3) > div:nth-of-type(2) '
-                // },
-            },
+            }
         });
-        const images: GraphicsCard[] = await this.crawler.fetch({
-            target: {
-                url: 'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
-                iterator: {
-                    selector: 'div.sc-13p5mv-2',
-                    // convert: (x: string) => `https://news.ycombinator.com/${x}`,
-                },
-            },
+        const images: GraphicsCard = await this.crawler.fetch({
+            waitFor: 3 * 1000,
+            target: [
+                'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
+                'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
+                'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
+                'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
+            ],
             fetch: (data: any, index: number, url: string) => ({
-                images: 'div > div:nth-of-type(2)',
+                imagePath: {
+                    selector: `div.sc-10crcwp-1 > div.sc-10crcwp-2 > div.sc-1ys1y5k-1 > div.sc-1ys1y5k-4 > div.sc-1ys1y5k-3 > div:first-of-type > div:nth-of-type(${index+1}) > div:first-of-type > span.sc-1tblmgq-0 > img`,
+                    attr: 'src'
+                }
             }),
         });
         return {details, images};
