@@ -32,19 +32,19 @@ let CrawlerService = class CrawlerService {
         });
         return pages;
     }
-    async scrape() {
+    async scrape(target) {
         const details = await this.crawler.fetch({
             waitFor: 3 * 1000,
-            target: 'https://www.x-kom.pl/p/517898-karta-graficzna-nvidia-msi-geforce-rtx-2070-super-gaming-x-8gb-gddr6.html?gclid=Cj0KCQjwwOz6BRCgARIsAKEG4FVf2zs35SZOE09seoEC7FHVJzzEiWuh_dDmxfJDzBCjJTg4IR40skgaAhHAEALw_wcB',
+            target: `https://www.x-kom.pl/p/${target}`,
             fetch: {
                 brand: {
-                    selector: 'span.bBGNsf > a'
+                    selector: 'div.kcleDT > div.kJMAqu > div.cFVEqu span.VFZxh > a'
                 },
                 model: {
                     selector: 'div.fXjZNH > h1'
                 },
                 ram: {
-                    selector: 'div.sc-13p5mv-2 > div:nth-of-type(3) > div:nth-of-type(2) '
+                    selector: 'ul.sc-1re71we-11 > li:nth-of-type(2) > span.dKxbux'
                 },
                 cpuClockSpeed: {
                     selector: 'div.sc-13p5mv-2 > div:nth-of-type(7) > div:nth-of-type(2) '
@@ -63,14 +63,11 @@ let CrawlerService = class CrawlerService {
         const images = await this.crawler.fetch({
             waitFor: 3 * 1000,
             target: [
-                'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
-                'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
-                'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
-                'https://www.x-kom.pl/p/513336-karta-graficzna-amd-asus-radeon-rx-5700-xt-tuf-oc-8gb-gddr6.html#modal:galeria',
+                'https://www.x-kom.pl/p/566360-smartfon-telefon-xiaomi-redmi-note-9-4-128gb-forest-green.html#modal:galeria'
             ],
             fetch: (data, index, url) => ({
                 imagePath: {
-                    selector: `div.sc-10crcwp-1 > div.sc-10crcwp-2 > div.sc-1ys1y5k-1 > div.sc-1ys1y5k-4 > div.sc-1ys1y5k-3 > div:first-of-type > div:nth-of-type(${index + 1}) > div:first-of-type > span.sc-1tblmgq-0 > img`,
+                    selector: `div.sc-10crcwp-1 > div.sc-10crcwp-2 > div.sc-1ys1y5k-1 > div.sc-1ys1y5k-5 > div.sc-1ys1y5k-4 > div:first-of-type > div:nth-of-type(${index + 1}) > div:first-of-type > div:first-of-type > span.sc-1tblmgq-0 > img`,
                     attr: 'src'
                 }
             }),

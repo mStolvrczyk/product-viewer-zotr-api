@@ -8,6 +8,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CrawlerController = void 0;
 const common_1 = require("@nestjs/common");
@@ -16,14 +19,15 @@ let CrawlerController = class CrawlerController {
     constructor(crawlerService) {
         this.crawlerService = crawlerService;
     }
-    async getGraphicsCard() {
-        return this.crawlerService.scrape();
+    async getGraphicsCard(target) {
+        return this.crawlerService.scrape(target);
     }
 };
 __decorate([
-    common_1.Get(),
+    common_1.Get(':target'),
+    __param(0, common_1.Param('target')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
+    __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], CrawlerController.prototype, "getGraphicsCard", null);
 CrawlerController = __decorate([

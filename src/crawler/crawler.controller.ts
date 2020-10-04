@@ -7,9 +7,9 @@ import { CrawlerService } from './crawler.service';
 export class CrawlerController {
     constructor(private readonly crawlerService: CrawlerService) {}
 
-    @Get()
-    async getGraphicsCard(): Promise<unknown> {
-        return this.crawlerService.scrape()
+    @Get(':target')
+    async getGraphicsCard(@Param('target') target): Promise<unknown> {
+        return this.crawlerService.scrape(target)
     }
     // @Get(':id')
     // async findOne(@Param('id') id): Promise<Drone> {
