@@ -7,7 +7,6 @@ exports.GraphicsCardSchema = new mongoose.Schema({
     brand: String,
     model: String,
     ram: String,
-    chipset: String,
     cpuClockSpeed: String,
     ports: String,
     description: String,

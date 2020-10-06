@@ -9,6 +9,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.SmartphonesModule = void 0;
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
+const nest_crawler_1 = require("nest-crawler");
+const scrape_controller_1 = require("./controllers/scrape.controller");
+const scrape_service_1 = require("./services/scrape.service");
 const smartphones_controller_1 = require("./controllers/smartphones.controller");
 const smartphones_service_1 = require("./services/smartphones.service");
 const smartphone_schema_1 = require("./schemas/smartphone.schema");
@@ -16,9 +19,9 @@ let SmartphonesModule = class SmartphonesModule {
 };
 SmartphonesModule = __decorate([
     common_1.Module({
-        imports: [mongoose_1.MongooseModule.forFeature([{ name: 'Smartphone', schema: smartphone_schema_1.SmartphoneSchema }])],
-        controllers: [smartphones_controller_1.SmartphonesController],
-        providers: [smartphones_service_1.SmartphonesService],
+        imports: [mongoose_1.MongooseModule.forFeature([{ name: 'Smartphone', schema: smartphone_schema_1.SmartphoneSchema }]), nest_crawler_1.NestCrawlerModule],
+        controllers: [smartphones_controller_1.SmartphonesController, scrape_controller_1.ScrapeController],
+        providers: [smartphones_service_1.SmartphonesService, scrape_service_1.ScrapeService],
     })
 ], SmartphonesModule);
 exports.SmartphonesModule = SmartphonesModule;

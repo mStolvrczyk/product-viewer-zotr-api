@@ -9,6 +9,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.GraphicsCardsModule = void 0;
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
+const nest_crawler_1 = require("nest-crawler");
+const scrape_controller_1 = require("./controllers/scrape.controller");
+const scrape_service_1 = require("./services/scrape.service");
 const graphicsCards_controller_1 = require("./controllers/graphicsCards.controller");
 const graphicsCards_service_1 = require("./services/graphicsCards.service");
 const graphicsCard_schema_1 = require("./schemas/graphicsCard.schema");
@@ -16,9 +19,9 @@ let GraphicsCardsModule = class GraphicsCardsModule {
 };
 GraphicsCardsModule = __decorate([
     common_1.Module({
-        imports: [mongoose_1.MongooseModule.forFeature([{ name: 'GraphicsCard', schema: graphicsCard_schema_1.GraphicsCardSchema }])],
-        controllers: [graphicsCards_controller_1.GraphicsCardsController],
-        providers: [graphicsCards_service_1.GraphicsCardsService],
+        imports: [mongoose_1.MongooseModule.forFeature([{ name: 'GraphicsCard', schema: graphicsCard_schema_1.GraphicsCardSchema }]), nest_crawler_1.NestCrawlerModule],
+        controllers: [graphicsCards_controller_1.GraphicsCardsController, scrape_controller_1.ScrapeController],
+        providers: [graphicsCards_service_1.GraphicsCardsService, scrape_service_1.ScrapeService],
     })
 ], GraphicsCardsModule);
 exports.GraphicsCardsModule = GraphicsCardsModule;
