@@ -3,7 +3,6 @@ export interface GraphicsCard {
     readonly brand: string;
     readonly model: string;
     readonly ram: string;
-    readonly chipset: string;
     readonly cpuClockSpeed: string;
     readonly ports: string;
     readonly description: string;

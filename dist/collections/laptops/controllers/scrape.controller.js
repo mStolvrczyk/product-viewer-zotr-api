@@ -11,17 +11,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CrawlerController = void 0;
+exports.ScrapeController = void 0;
 const common_1 = require("@nestjs/common");
-const crawler_service_1 = require("./crawler.service");
-let CrawlerController = class CrawlerController {
-    constructor(crawlerService) {
-        this.crawlerService = crawlerService;
+const scrape_service_1 = require("../services/scrape.service");
+let ScrapeController = class ScrapeController {
+    constructor(scrapeService) {
+        this.scrapeService = scrapeService;
     }
-    async getGraphicsCard(target) {
-        return this.crawlerService.scrape(target);
+    async getLaptop(target) {
+        return this.scrapeService.scrape(target);
     }
 };
 __decorate([
@@ -30,10 +29,10 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
-], CrawlerController.prototype, "getGraphicsCard", null);
-CrawlerController = __decorate([
-    common_1.Controller('graphicsCards'),
-    __metadata("design:paramtypes", [typeof (_a = typeof crawler_service_1.CrawlerService !== "undefined" && crawler_service_1.CrawlerService) === "function" ? _a : Object])
-], CrawlerController);
-exports.CrawlerController = CrawlerController;
-//# sourceMappingURL=crawler.controller.js.map
+], ScrapeController.prototype, "getLaptop", null);
+ScrapeController = __decorate([
+    common_1.Controller('laptop'),
+    __metadata("design:paramtypes", [scrape_service_1.ScrapeService])
+], ScrapeController);
+exports.ScrapeController = ScrapeController;
+//# sourceMappingURL=scrape.controller.js.map

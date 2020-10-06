@@ -9,8 +9,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.CrawlerModule = void 0;
 const common_1 = require("@nestjs/common");
 const nest_crawler_1 = require("nest-crawler");
-const crawler_controller_1 = require("./crawler.controller");
-const crawler_service_1 = require("./crawler.service");
+const scrape_controller_1 = require("../collections/graphicsCards/controllers/scrape.controller");
+const scrape_service_1 = require("../collections/graphicsCards/services/scrape.service");
 let CrawlerModule = class CrawlerModule {
 };
 CrawlerModule = __decorate([
@@ -18,8 +18,8 @@ CrawlerModule = __decorate([
         imports: [
             nest_crawler_1.NestCrawlerModule,
         ],
-        controllers: [crawler_controller_1.CrawlerController],
-        providers: [crawler_service_1.CrawlerService],
+        controllers: [scrape_controller_1.ScrapeController],
+        providers: [scrape_service_1.ScrapeService],
     })
 ], CrawlerModule);
 exports.CrawlerModule = CrawlerModule;

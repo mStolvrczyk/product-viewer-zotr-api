@@ -1,5 +1,4 @@
 import { Module } from '@nestjs/common';
-import { CrawlerModule } from './crawler/crawler.module';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { DronesModule } from './collections/drones/drones.module';
@@ -14,7 +13,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import config from './config/keys';
 
 @Module({
-  imports: [DronesModule, GraphicsCardsModule, KeyboardsModule, LaptopsModule, MonitorsModule, MousesModule, SmartphonesModule, WirelessHeadphonesModule, CrawlerModule, MongooseModule.forRoot(config.mongoURI)],
+  imports: [DronesModule, GraphicsCardsModule, KeyboardsModule, LaptopsModule, MonitorsModule, MousesModule, SmartphonesModule, WirelessHeadphonesModule, MongooseModule.forRoot(config.mongoURI)],
   controllers: [AppController],
   providers: [AppService],
 })
