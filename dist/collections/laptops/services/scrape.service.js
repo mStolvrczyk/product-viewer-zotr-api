@@ -52,17 +52,21 @@ let ScrapeService = class ScrapeService {
         });
         const images = await this.scraper.fetch({
             waitFor: 3 * 1000,
-            target: [
-                `https://www.x-kom.pl/p/${target}#modal:galeria`,
-                `https://www.x-kom.pl/p/${target}#modal:galeria`,
-                `https://www.x-kom.pl/p/${target}#modal:galeria`,
-            ],
-            fetch: (data, index, url) => ({
-                imagePath: {
-                    selector: `div.sc-10crcwp-1 > div.sc-10crcwp-2 > div.sc-1ys1y5k-1 > div.sc-1ys1y5k-5 > div.sc-1ys1y5k-4 > div:first-of-type > div:nth-of-type(${index + 1}) > div:first-of-type > div:first-of-type > span.sc-1tblmgq-0 > img`,
+            target: `https://www.x-kom.pl/p/${target}/#modal:galeria`,
+            fetch: {
+                imageOne: {
+                    selector: 'div.sc-10crcwp-1 > div.sc-10crcwp-2 > div.sc-1ys1y5k-1 > div.sc-1ys1y5k-5 > div.sc-1ys1y5k-4 > div:first-of-type > div:nth-of-type(1) > div:first-of-type > div:first-of-type > span.sc-1tblmgq-0 > img',
+                    attr: 'src'
+                },
+                imageTwo: {
+                    selector: 'div.sc-10crcwp-1 > div.sc-10crcwp-2 > div.sc-1ys1y5k-1 > div.sc-1ys1y5k-5 > div.sc-1ys1y5k-4 > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div:first-of-type > span.sc-1tblmgq-0 > img',
+                    attr: 'src'
+                },
+                imageThree: {
+                    selector: 'div.sc-10crcwp-1 > div.sc-10crcwp-2 > div.sc-1ys1y5k-1 > div.sc-1ys1y5k-5 > div.sc-1ys1y5k-4 > div:first-of-type > div:nth-of-type(3) > div:first-of-type > div:first-of-type > span.sc-1tblmgq-0 > img',
                     attr: 'src'
                 }
-            }),
+            }
         });
         return { details, images };
     }
