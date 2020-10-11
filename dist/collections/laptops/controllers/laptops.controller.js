@@ -27,6 +27,7 @@ let LaptopsController = class LaptopsController {
         return this.laptopsService.findLaptopType(type);
     }
     create(createLaptopDto) {
+        console.log('dupa');
         return this.laptopsService.create(createLaptopDto);
     }
 };

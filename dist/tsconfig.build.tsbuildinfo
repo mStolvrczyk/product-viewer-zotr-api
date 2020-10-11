@@ -1677,12 +1677,12 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/services/laptops.service.ts": {
-        "version": "4c8a9422fce1876c5252d59f6edeccada1482d33b08f87dbdcd6e1597ab74d3a",
+        "version": "9d3fb53c35c6f0595d4ab4e96ed1096ad5bfef80ce2c71bc904e9b2175dc68bc",
         "signature": "52a40b8b7d504a6aa2647c9b5f0fa5486e15b56bcbe081557535e9b89affbc30",
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/controllers/laptops.controller.ts": {
-        "version": "e8ef63d2e240d5a4d153ee60d37c17b7727d7f2a06d43ac4bf425a1d6c88d8a6",
+        "version": "5b3cca7357a198296f5f48ea24fa8a7c88900c98fbe88e4794ce1a267ba8fd16",
         "signature": "bb2904ba062ea4ad1a25881f8def42fc3bd3b841aa8726a9c890b8218cb4d125",
         "affectsGlobalScope": false
       },

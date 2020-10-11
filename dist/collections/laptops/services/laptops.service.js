@@ -29,6 +29,7 @@ let LaptopsService = class LaptopsService {
     }
     async create(laptop) {
         const newLaptop = new this.laptopModel(laptop);
+        console.log(laptop);
         return newLaptop.save();
     }
 };
