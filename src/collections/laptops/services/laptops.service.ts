@@ -17,7 +17,6 @@ export class LaptopsService {
 
     async create(laptop: Laptop): Promise<Laptop> {
         const newLaptop = new this.laptopModel(laptop);
-        console.log(laptop)
         return newLaptop.save();
     }
 }
