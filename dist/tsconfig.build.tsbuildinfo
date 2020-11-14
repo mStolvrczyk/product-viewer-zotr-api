@@ -1657,7 +1657,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/services/scrape.service.ts": {
-        "version": "4c1352a2e2ccd20cde6225be48a2965997018729066ace0a0b6815104ea3d5dc",
+        "version": "f7e756ef8b47b3fc060eadcc134424c73f80a78c15b7c3544debbdffbd330fba",
         "signature": "41618339b43b2a0675a8e87fc74249c6bfe8a650710e23a8d2b3bff33c843606",
         "affectsGlobalScope": false
       },
