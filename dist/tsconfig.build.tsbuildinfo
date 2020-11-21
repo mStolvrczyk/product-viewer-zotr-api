@@ -1016,7 +1016,7 @@
         "signature": "e7e859feab0004e436960834f5be706cd78a46b6637512d08a75c2c5dcdf4143",
         "affectsGlobalScope": false
       },
-      "../node_modules/axios/index.d.ts": {
+      "../node_modules/@nestjs/common/node_modules/axios/index.d.ts": {
         "version": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0",
         "signature": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0",
         "affectsGlobalScope": false
@@ -2842,12 +2842,12 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@nestjs/common/http/http.service.d.ts": [
+        "../node_modules/@nestjs/common/node_modules/axios/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/axios/index.d.ts",
         "../node_modules/rxjs/index.d.ts"
       ],
       "../node_modules/@nestjs/common/http/index.d.ts": [
@@ -2862,12 +2862,12 @@
       ],
       "../node_modules/@nestjs/common/http/interfaces/http-module.interface.d.ts": [
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/node_modules/axios/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/axios/index.d.ts"
+        "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@nestjs/common/http/interfaces/index.d.ts": [
         "../node_modules/@nestjs/common/http/interfaces/http-module.interface.d.ts",
@@ -3319,6 +3319,13 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/index.d.ts"
+      ],
+      "../node_modules/@nestjs/common/node_modules/axios/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@nestjs/common/pipes/default-value.pipe.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -4821,13 +4828,6 @@
         "../node_modules/scrape-it/lib/index.d.ts"
       ],
       "../node_modules/anymatch/index.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/axios/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -7386,6 +7386,13 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/index.d.ts"
       ],
+      "../node_modules/@nestjs/common/node_modules/axios/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../node_modules/@nestjs/common/pipes/default-value.pipe.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -8893,13 +8900,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/axios/index.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
       "../node_modules/jest-diff/build/cleanupSemantic.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -10077,6 +10077,7 @@
       "../node_modules/@nestjs/common/interfaces/scope-options.interface.d.ts",
       "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
       "../node_modules/@nestjs/common/interfaces/websockets/web-socket-adapter.interface.d.ts",
+      "../node_modules/@nestjs/common/node_modules/axios/index.d.ts",
       "../node_modules/@nestjs/common/pipes/default-value.pipe.d.ts",
       "../node_modules/@nestjs/common/pipes/index.d.ts",
       "../node_modules/@nestjs/common/pipes/parse-array.pipe.d.ts",
@@ -10246,7 +10247,6 @@
       "../node_modules/@web-master/node-web-scraper/dist/lib/index.d.ts",
       "../node_modules/@web-master/node-web-scraper/index.d.ts",
       "../node_modules/anymatch/index.d.ts",
-      "../node_modules/axios/index.d.ts",
       "../node_modules/jest-diff/build/cleanupSemantic.d.ts",
       "../node_modules/jest-diff/build/diffLines.d.ts",
       "../node_modules/jest-diff/build/index.d.ts",
