@@ -11,6 +11,10 @@ export class LaptopsController {
     async findAll(): Promise<Laptop[]> {
         return this.laptopsService.findAll()
     }
+    @Get('count')
+    async count(): Promise<Laptop> {
+        return this.laptopsService.count()
+    }
     @Get(':type')
     async findLaptopType(@Param('type') type): Promise<Laptop> {
         return this.laptopsService.findLaptopType(type);

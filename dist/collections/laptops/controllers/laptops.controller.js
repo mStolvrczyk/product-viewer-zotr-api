@@ -23,6 +23,9 @@ let LaptopsController = class LaptopsController {
     async findAll() {
         return this.laptopsService.findAll();
     }
+    async count() {
+        return this.laptopsService.count();
+    }
     async findLaptopType(type) {
         return this.laptopsService.findLaptopType(type);
     }
@@ -36,6 +39,12 @@ __decorate([
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
 ], LaptopsController.prototype, "findAll", null);
+__decorate([
+    common_1.Get('count'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Promise)
+], LaptopsController.prototype, "count", null);
 __decorate([
     common_1.Get(':type'),
     __param(0, common_1.Param('type')),

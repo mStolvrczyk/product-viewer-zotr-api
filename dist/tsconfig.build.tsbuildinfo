@@ -1677,13 +1677,13 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/services/laptops.service.ts": {
-        "version": "cdfae650c01b1c3ac585cd645428a54d40437649e66f58b814fb4425167cdf95",
-        "signature": "d71a1e9827d6df07ff9e066ff7b21dbe30897c872c81d25c2f98f116efca3182",
+        "version": "d0e0272a65a3c2bb4930615158f7a54d5d88bc980380f7b80924b1b52d44a8d4",
+        "signature": "7f969b49377110471b3c0dc67e693feb602a4c5acb3d73ce54c8e18066f468d3",
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/controllers/laptops.controller.ts": {
-        "version": "341a6a65da065e600f9df11c45743a88884a60859e10d7900b49a0c2b44456d8",
-        "signature": "12d23b06a420117b4b23e1e0a6f816b739c3c1bba37bfdf774d9a9716898fd97",
+        "version": "0a784603fb7d30bc324d3b01755148eb0e6de749db0f6da6d2031fdc641959af",
+        "signature": "1267a64266d9bb2103c7846a2ad692ec046167e6e7bd5c23603363ec46926741",
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/schemas/laptop.schema.ts": {
