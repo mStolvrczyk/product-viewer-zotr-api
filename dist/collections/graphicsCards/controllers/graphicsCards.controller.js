@@ -51,7 +51,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], GraphicsCardsController.prototype, "create", null);
 GraphicsCardsController = __decorate([
-    common_1.Controller('graphiccsCards'),
+    common_1.Controller('graphicsCards'),
     __metadata("design:paramtypes", [graphicsCards_service_1.GraphicsCardsService])
 ], GraphicsCardsController);
 exports.GraphicsCardsController = GraphicsCardsController;

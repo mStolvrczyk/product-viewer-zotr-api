@@ -1612,7 +1612,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/graphicsCards/controllers/graphicsCards.controller.ts": {
-        "version": "4b3588e7600c089db78b33d8a2eb0227573047e09a31a364b8202581bfd3c9d6",
+        "version": "2f66f90b48a00f45ab65918a650c1ac6f2417515921a317969c197bfda889ecf",
         "signature": "9b7100bf525e2075a36932383badaae862390a54d7e7db9e6a1b20bd4f58a244",
         "affectsGlobalScope": false
       },
