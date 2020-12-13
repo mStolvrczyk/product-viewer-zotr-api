@@ -1,9 +1,9 @@
 import * as mongoose from 'mongoose'
 
 export const LaptopSchema = new mongoose.Schema({
+    images: Object,
     brand: String,
     model: String,
-    images: Object,
     ram: String,
     cpu: String,
     gpu: String,

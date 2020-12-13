@@ -1,7 +1,7 @@
 export declare class CreateSmartphoneDto {
-    readonly imagePath: string;
     readonly brand: string;
     readonly model: string;
+    readonly images: unknown;
     readonly screen: string;
     readonly battery: string;
     readonly ram: string;

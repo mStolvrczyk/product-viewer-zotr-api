@@ -12,7 +12,11 @@ export class LaptopsService {
     }
 
     async count(): Promise<Laptop> {
-        return await this.laptopModel.count();
+        return await this.laptopModel.countDocuments();
+    }
+
+    async countByType(type: string): Promise<Laptop> {
+        return await this.laptopModel.find({ type: type }).countDocuments();
     }
 
     async findLaptopType(type: string): Promise<Laptop> {
@@ -24,4 +28,3 @@ export class LaptopsService {
         return newLaptop.save();
     }
 }
- 

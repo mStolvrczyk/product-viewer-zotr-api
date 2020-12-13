@@ -25,7 +25,10 @@ let LaptopsService = class LaptopsService {
         return await this.laptopModel.find();
     }
     async count() {
-        return await this.laptopModel.count();
+        return await this.laptopModel.countDocuments();
+    }
+    async countByType(type) {
+        return await this.laptopModel.find({ type: type }).countDocuments();
     }
     async findLaptopType(type) {
         return await this.laptopModel.find({ type: type });

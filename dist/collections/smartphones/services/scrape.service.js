@@ -18,7 +18,7 @@ let ScrapeService = class ScrapeService {
     }
     async scrape(target) {
         const details = await this.scraper.fetch({
-            waitFor: 3 * 1000,
+            waitFor: 1,
             target: `https://www.x-kom.pl/p/${target}`,
             fetch: {
                 brand: {
@@ -48,7 +48,7 @@ let ScrapeService = class ScrapeService {
             }
         });
         const images = await this.scraper.fetch({
-            waitFor: 3 * 1000,
+            waitFor: 1,
             target: `https://www.x-kom.pl/p/${target}/#modal:galeria`,
             fetch: {
                 imageOne: {

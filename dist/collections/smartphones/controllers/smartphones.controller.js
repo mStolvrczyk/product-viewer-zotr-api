@@ -23,6 +23,9 @@ let SmartphonesController = class SmartphonesController {
     async findAll() {
         return this.smartphonesService.findAll();
     }
+    async count() {
+        return this.smartphonesService.count();
+    }
     async findOne(id) {
         return this.smartphonesService.findOne(id);
     }
@@ -36,6 +39,12 @@ __decorate([
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
 ], SmartphonesController.prototype, "findAll", null);
+__decorate([
+    common_1.Get('count'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Promise)
+], SmartphonesController.prototype, "count", null);
 __decorate([
     common_1.Get(':id'),
     __param(0, common_1.Param('id')),

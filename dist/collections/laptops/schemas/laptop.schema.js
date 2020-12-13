@@ -3,9 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.LaptopSchema = void 0;
 const mongoose = require("mongoose");
 exports.LaptopSchema = new mongoose.Schema({
+    images: Object,
     brand: String,
     model: String,
-    images: Object,
     ram: String,
     cpu: String,
     gpu: String,

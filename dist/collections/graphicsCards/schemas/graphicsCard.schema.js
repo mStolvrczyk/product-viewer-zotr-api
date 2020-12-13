@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.GraphicsCardSchema = void 0;
 const mongoose = require("mongoose");
 exports.GraphicsCardSchema = new mongoose.Schema({
-    imagePath: String,
+    images: Object,
     brand: String,
     model: String,
     ram: String,

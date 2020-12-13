@@ -1,5 +1,5 @@
 export declare class CreateGraphicsCardDto {
-    readonly imagePath: string;
+    readonly images: unknown;
     readonly brand: string;
     readonly model: string;
     readonly ram: string;

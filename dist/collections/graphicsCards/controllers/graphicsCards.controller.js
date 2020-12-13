@@ -23,6 +23,9 @@ let GraphicsCardsController = class GraphicsCardsController {
     async findAll() {
         return this.graphicsCardsService.findAll();
     }
+    async count() {
+        return this.graphicsCardsService.count();
+    }
     async findOne(id) {
         return this.graphicsCardsService.findOne(id);
     }
@@ -36,6 +39,12 @@ __decorate([
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
 ], GraphicsCardsController.prototype, "findAll", null);
+__decorate([
+    common_1.Get('count'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Promise)
+], GraphicsCardsController.prototype, "count", null);
 __decorate([
     common_1.Get(':id'),
     __param(0, common_1.Param('id')),

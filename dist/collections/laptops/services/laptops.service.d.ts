@@ -5,6 +5,7 @@ export declare class LaptopsService {
     constructor(laptopModel: Model<Laptop>);
     findAll(): Promise<Laptop[]>;
     count(): Promise<Laptop>;
+    countByType(type: string): Promise<Laptop>;
     findLaptopType(type: string): Promise<Laptop>;
     create(laptop: Laptop): Promise<Laptop>;
 }

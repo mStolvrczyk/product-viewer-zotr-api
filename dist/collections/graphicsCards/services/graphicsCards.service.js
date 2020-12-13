@@ -24,6 +24,9 @@ let GraphicsCardsService = class GraphicsCardsService {
     async findAll() {
         return await this.graphicsCardModel.find();
     }
+    async count() {
+        return await this.graphicsCardModel.countDocuments();
+    }
     async findOne(id) {
         return await this.graphicsCardModel.findOne({ _id: id });
     }

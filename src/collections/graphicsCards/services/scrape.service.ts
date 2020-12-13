@@ -17,7 +17,7 @@ export class ScrapeService {
             price: string;
         }
         const details: GraphicsCard = await this.scraper.fetch({
-            waitFor: 3 * 1000,
+            waitFor: 1,
             target: `https://www.x-kom.pl/p/${target}`,
             fetch: {
                 brand: {
@@ -45,7 +45,7 @@ export class ScrapeService {
             }
         });
         const images: GraphicsCard = await this.scraper.fetch({
-            waitFor: 3 * 1000,
+            waitFor: 1,
             target: `https://www.x-kom.pl/p/${target}/#modal:galeria`,
             fetch: {
                 imageOne: {

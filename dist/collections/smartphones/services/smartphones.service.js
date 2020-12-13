@@ -24,6 +24,9 @@ let SmartphonesService = class SmartphonesService {
     async findAll() {
         return await this.smartphoneModel.find();
     }
+    async count() {
+        return await this.smartphoneModel.countDocuments();
+    }
     async findOne(id) {
         return await this.smartphoneModel.findOne({ _id: id });
     }

@@ -1,7 +1,7 @@
 import * as mongoose from 'mongoose'
 
 export const GraphicsCardSchema = new mongoose.Schema({
-    imagePath: String,
+    images: Object,
     brand: String,
     model: String,
     ram: String,

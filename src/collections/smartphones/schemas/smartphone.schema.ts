@@ -1,7 +1,7 @@
 import * as mongoose from 'mongoose'
 
 export const SmartphoneSchema = new mongoose.Schema({
-    imagePath: String,
+    images: Object,
     brand: String,
     model: String,
     screen: String,
