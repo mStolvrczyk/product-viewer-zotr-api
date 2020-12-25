@@ -32,6 +32,12 @@ let SmartphonesController = class SmartphonesController {
     create(createSmartphoneDto) {
         return this.smartphonesService.create(createSmartphoneDto);
     }
+    delete(id) {
+        return this.smartphonesService.delete(id);
+    }
+    update(updateSmartphoneDto, id) {
+        return this.smartphonesService.update(id, updateSmartphoneDto);
+    }
 };
 __decorate([
     common_1.Get(),
@@ -59,6 +65,20 @@ __decorate([
     __metadata("design:paramtypes", [create_smartphone_dto_1.CreateSmartphoneDto]),
     __metadata("design:returntype", Promise)
 ], SmartphonesController.prototype, "create", null);
+__decorate([
+    common_1.Delete(':id'),
+    __param(0, common_1.Param('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], SmartphonesController.prototype, "delete", null);
+__decorate([
+    common_1.Put(':id'),
+    __param(0, common_1.Body()), __param(1, common_1.Param('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [create_smartphone_dto_1.CreateSmartphoneDto, Object]),
+    __metadata("design:returntype", Promise)
+], SmartphonesController.prototype, "update", null);
 SmartphonesController = __decorate([
     common_1.Controller('smartphones'),
     __metadata("design:paramtypes", [smartphones_service_1.SmartphonesService])

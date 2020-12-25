@@ -34,6 +34,12 @@ let SmartphonesService = class SmartphonesService {
         const newSmartphone = new this.smartphoneModel(smartphone);
         return newSmartphone.save();
     }
+    async delete(id) {
+        return await this.smartphoneModel.findByIdAndRemove(id);
+    }
+    async update(id, smartphone) {
+        return await this.smartphoneModel.findByIdAndUpdate(id, smartphone, { new: true });
+    }
 };
 SmartphonesService = __decorate([
     common_1.Injectable(),

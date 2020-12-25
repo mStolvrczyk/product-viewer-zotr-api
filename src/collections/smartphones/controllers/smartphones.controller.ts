@@ -2,7 +2,6 @@ import {Body, Controller, Get, Post, Put, Delete, Param} from '@nestjs/common';
 import { CreateSmartphoneDto } from '../dto/create-smartphone.dto';
 import { SmartphonesService } from '../services/smartphones.service';
 import { Smartphone } from '../interfaces/smartphone.interface';
-import {Laptop} from "../../laptops/interfaces/laptop.interface";
 
 @Controller('smartphones')
 export class SmartphonesController {
@@ -13,7 +12,7 @@ export class SmartphonesController {
         return this.smartphonesService.findAll()
     }
     @Get('count')
-    async count(): Promise<Laptop> {
+    async count(): Promise<Smartphone> {
         return this.smartphonesService.count()
     }
     @Get(':id')
@@ -23,5 +22,13 @@ export class SmartphonesController {
     @Post()
     create(@Body() createSmartphoneDto: CreateSmartphoneDto): Promise<Smartphone> {
         return this.smartphonesService.create(createSmartphoneDto);
+    }
+    @Delete(':id')
+    delete(@Param('id') id): Promise <Smartphone> {
+        return this.smartphonesService.delete(id);
+    }
+    @Put(':id')
+    update(@Body() updateSmartphoneDto: CreateSmartphoneDto, @Param('id') id): Promise<Smartphone> {
+        return this.smartphonesService.update(id, updateSmartphoneDto);
     }
 }

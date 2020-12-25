@@ -1757,7 +1757,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/services/scrape.service.ts": {
-        "version": "3e9700909d31d76e92ba47c00928e743451b80952c1d88d894c60493d32fca94",
+        "version": "de3f78db87cb4bccfd2a56f59106a86b3f5e8d57f1774e8b914ba195c0075cbe",
         "signature": "41618339b43b2a0675a8e87fc74249c6bfe8a650710e23a8d2b3bff33c843606",
         "affectsGlobalScope": false
       },
@@ -1767,27 +1767,27 @@
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/dto/create-smartphone.dto.ts": {
-        "version": "fc0bbe9531e551dc1d75aa01afa792d6976ce9117301a7d5d2a8a3db0f5e595f",
-        "signature": "e7d6e3acdc7c2ffcf699d6ae73c6ac70e13df88e171a22f8669ea744f3f6d3af",
+        "version": "2a421ba59667a983f2df89930645868a4981a4d6a9a52407b79ab69e795522ee",
+        "signature": "cbf588266534362996efaf18342fda1ed611abe9a5c3ab894e9fddb9c744af7a",
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/interfaces/smartphone.interface.ts": {
-        "version": "9ba11b691fbd912ff41d444497b2865c9d20e7b4b92dc91081198d0be6770577",
-        "signature": "9ba11b691fbd912ff41d444497b2865c9d20e7b4b92dc91081198d0be6770577",
+        "version": "0efe0cd1aebf39791dfb1084f86d7fed42149fe38c05af0a01d60b06b9cc8a6d",
+        "signature": "09c1779a672014d97f196137de9e1fab36c92bb5c510ef0fdc3423c88be480b6",
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/services/smartphones.service.ts": {
-        "version": "13b5b1a2e740590247fb3e97e30d602284922c41cbd388be5e5c71d910bf46f5",
-        "signature": "a7a345e02fefb5105adfc68f9058d52f055d6647cbf16ea579146d0331bf8504",
+        "version": "9f6bce52bf122798c451b83dfc9faa57e97409ff25741866e48a89b75fcf3bad",
+        "signature": "15b9334cfec03988f844ec23bf52fc472bfe5a4b90bc25d78266d30ce851dab7",
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/controllers/smartphones.controller.ts": {
-        "version": "52ab71845fafb90c9b8dded5707f1a1346ad96cabdadbdd9354ad995f2a55f76",
-        "signature": "c2f89a97edac7d253d1944e54838ff17e134518b048a81738e70b8f6816d0c2e",
+        "version": "2192a9df8ea81679a259947dcf56b64c6d530f81ccef88957af221fc3b09d9ca",
+        "signature": "e17e4cb0f5c8b9784562bfb61886b3d7d22adfc01878d1e08a5de1c39ff07b97",
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/schemas/smartphone.schema.ts": {
-        "version": "bca7fab2cc44cb5d7a9a7efb6fc0b52487fdb46f3d094a17dfbed259e3d87ea1",
+        "version": "5bcb4b2deedd4a4d75cd564bea97ae716cb2c5bd4ee19fcf1e3f37178abca710",
         "signature": "c818bb7bdcdae1641bb1973cca8f11a49d0c80c03dce46335f9f3d4f1f652943",
         "affectsGlobalScope": false
       },
@@ -6229,7 +6229,6 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/collections/laptops/interfaces/laptop.interface.ts",
         "../src/collections/smartphones/dto/create-smartphone.dto.ts",
         "../src/collections/smartphones/interfaces/smartphone.interface.ts",
         "../src/collections/smartphones/services/smartphones.service.ts"
@@ -6272,7 +6271,6 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/collections/laptops/interfaces/laptop.interface.ts",
         "../src/collections/smartphones/interfaces/smartphone.interface.ts"
       ],
       "../src/collections/smartphones/smartphones.module.ts": [
@@ -9947,7 +9945,6 @@
         "../src/collections/smartphones/services/scrape.service.ts"
       ],
       "../src/collections/smartphones/controllers/smartphones.controller.ts": [
-        "../src/collections/laptops/interfaces/laptop.interface.ts",
         "../src/collections/smartphones/dto/create-smartphone.dto.ts",
         "../src/collections/smartphones/interfaces/smartphone.interface.ts",
         "../src/collections/smartphones/services/smartphones.service.ts"
@@ -9956,7 +9953,6 @@
         "../node_modules/nest-crawler/dist/index.d.ts"
       ],
       "../src/collections/smartphones/services/smartphones.service.ts": [
-        "../src/collections/laptops/interfaces/laptop.interface.ts",
         "../src/collections/smartphones/interfaces/smartphone.interface.ts"
       ],
       "../src/collections/wirelessHeadphones/controllers/wirelessHeadphones.controller.ts": [

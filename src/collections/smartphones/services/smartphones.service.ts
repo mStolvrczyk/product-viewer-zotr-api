@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import { Smartphone } from '../interfaces/smartphone.interface';
 import { Model } from 'mongoose'
 import { InjectModel } from '@nestjs/mongoose';
-import {Laptop} from "../../laptops/interfaces/laptop.interface";
 
 @Injectable()
 export class SmartphonesService {
@@ -11,7 +10,7 @@ export class SmartphonesService {
     async findAll(): Promise<Smartphone[]> {
         return await this.smartphoneModel.find();
     }
-    async count(): Promise<Laptop> {
+    async count(): Promise<Smartphone> {
         return await this.smartphoneModel.countDocuments();
     }
     async findOne(id: string): Promise<Smartphone> {
@@ -21,5 +20,11 @@ export class SmartphonesService {
     async create(smartphone: Smartphone): Promise<Smartphone> {
         const newSmartphone = new this.smartphoneModel(smartphone);
         return newSmartphone.save();
+    }
+    async delete(id: string): Promise<Smartphone> {
+        return await this.smartphoneModel.findByIdAndRemove(id);
+    }
+    async update(id: string, smartphone: Smartphone): Promise<Smartphone> {
+        return await this.smartphoneModel.findByIdAndUpdate(id, smartphone, { new: true });
     }
 }

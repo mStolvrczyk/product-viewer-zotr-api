@@ -34,7 +34,7 @@ let ScrapeService = class ScrapeService {
                     selector: 'div.sc-13p5mv-2 > div:nth-of-type(26) > div:nth-of-type(2) '
                 },
                 ram: {
-                    selector: 'div.sc-13p5mv-2 > div:nth-of-type(3) > div:nth-of-type(2) '
+                    selector: 'div.sc-13p5mv-2 > div:nth-of-type(2) > div:nth-of-type(2) '
                 },
                 memory: {
                     selector: 'ul.sc-1re71we-11 > li:nth-of-type(3) > span.dKxbux'
