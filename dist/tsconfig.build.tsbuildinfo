@@ -1757,7 +1757,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/services/scrape.service.ts": {
-        "version": "de3f78db87cb4bccfd2a56f59106a86b3f5e8d57f1774e8b914ba195c0075cbe",
+        "version": "2d51e937de300c89dfd4ea1b874dfcf6012d97eb9491ee79fda63d005f4ae5ca",
         "signature": "41618339b43b2a0675a8e87fc74249c6bfe8a650710e23a8d2b3bff33c843606",
         "affectsGlobalScope": false
       },

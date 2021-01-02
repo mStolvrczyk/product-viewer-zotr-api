@@ -40,7 +40,7 @@ export class ScrapeService {
                     selector: 'ul.sc-1re71we-11 > li:nth-of-type(3) > span.dKxbux'
                 },
                 description: {
-                    selector: 'div.content > div:nth-of-type(1) > div.col-md-12 > div.text-center > div.col-md-12 > div.fresh-content > div.col-md-10 > p:nth-of-type(1)'
+                   selector: 'div.content > div:nth-of-type(1) > div.col-md-12 > div.text-center > div.col-md-12 > div.fresh-content > div.col-md-10 > p:nth-of-type(1)'
                     // selector: 'div.content > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)'
                 },
                 price: {
