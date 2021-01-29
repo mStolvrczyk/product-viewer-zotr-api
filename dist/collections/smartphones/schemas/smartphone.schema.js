@@ -7,6 +7,7 @@ exports.SmartphoneSchema = new mongoose.Schema({
     details: {
         brand: String,
         model: String,
+        shopLink: String,
         screen: String,
         battery: String,
         ram: String,

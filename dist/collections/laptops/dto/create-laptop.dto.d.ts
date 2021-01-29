@@ -2,6 +2,7 @@ export declare class CreateLaptopDto {
     readonly images: unknown;
     readonly brand: string;
     readonly model: string;
+    readonly shopLink: string;
     readonly ram: string;
     readonly cpu: string;
     readonly gpu: string;

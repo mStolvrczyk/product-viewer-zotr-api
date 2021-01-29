@@ -1607,8 +1607,8 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/interfaces/laptop.interface.ts": {
-        "version": "9b6396fded9eb63e0ebcd2c23156a8e143fcf854b26db46293f5b3bb4c5c0745",
-        "signature": "9b6396fded9eb63e0ebcd2c23156a8e143fcf854b26db46293f5b3bb4c5c0745",
+        "version": "574382e92b0e3ce58498ac513f75f73256b1f81f1c3f19b584b15dd82fb99172",
+        "signature": "574382e92b0e3ce58498ac513f75f73256b1f81f1c3f19b584b15dd82fb99172",
         "affectsGlobalScope": false
       },
       "../src/collections/graphicsCards/services/graphicsCards.service.ts": {
@@ -1672,8 +1672,8 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/dto/create-laptop.dto.ts": {
-        "version": "9e3164b72a0722f030a05500995b3c4c6c19abf6257ec306426a53f0b7b4a3e1",
-        "signature": "f9acab91a2f78a650b0acb8e5baad95a6c43acc48301d484757439f39379bfc4",
+        "version": "b2e9ce679dcd5b08b8bbe5bb5e50a5662d321d90eeaff3b01a119431e4c25862",
+        "signature": "2e28fd92ebcd84965217e8c0a47930f24ac8ca9b0476e32ad710f0477802bc9e",
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/services/laptops.service.ts": {
@@ -1687,7 +1687,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/schemas/laptop.schema.ts": {
-        "version": "49d30505e02920acf5050f5347c7dcef993e67fec27f6488455100f7c6b352cd",
+        "version": "3f2a5c9bd1455cc9bca6cc90928bf754dab514b5e4080e06fe848b4e3708f147",
         "signature": "e7f6aaa70e2b18229aa8321d07729200bcab89b66dd73ce4732cb9d3910b4d97",
         "affectsGlobalScope": false
       },
@@ -1767,13 +1767,13 @@
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/dto/create-smartphone.dto.ts": {
-        "version": "2a421ba59667a983f2df89930645868a4981a4d6a9a52407b79ab69e795522ee",
-        "signature": "cbf588266534362996efaf18342fda1ed611abe9a5c3ab894e9fddb9c744af7a",
+        "version": "b7795c463e871283c2b0def62b102d366511188e95f45e55360f7413b95869f7",
+        "signature": "57a506a5fbc072b9b62874b30c3e706e48b299b72fc68f40ab7f217a684675e0",
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/interfaces/smartphone.interface.ts": {
-        "version": "0efe0cd1aebf39791dfb1084f86d7fed42149fe38c05af0a01d60b06b9cc8a6d",
-        "signature": "09c1779a672014d97f196137de9e1fab36c92bb5c510ef0fdc3423c88be480b6",
+        "version": "19b692d2287e08aef2fbd08ba54cb0656dc5ed03be6b9e5eb4ae596f0864cdc3",
+        "signature": "664b5ed4fd44b4469f7167241829ff8a85879dce72019ffd34e8bb7324eade62",
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/services/smartphones.service.ts": {
@@ -1787,7 +1787,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/schemas/smartphone.schema.ts": {
-        "version": "5bcb4b2deedd4a4d75cd564bea97ae716cb2c5bd4ee19fcf1e3f37178abca710",
+        "version": "c7dcdc85bda087e3e03944f779aeb0683ea8d693e77424415429a65c98132a3b",
         "signature": "c818bb7bdcdae1641bb1973cca8f11a49d0c80c03dce46335f9f3d4f1f652943",
         "affectsGlobalScope": false
       },
