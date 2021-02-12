@@ -22,22 +22,22 @@ let ScrapeService = class ScrapeService {
             target: `https://www.x-kom.pl/p/${target}`,
             fetch: {
                 brand: {
-                    selector: 'div.kcleDT > div.kJMAqu > div.cFVEqu span.VFZxh > a'
+                    selector: 'div.sc-1bker4h-1 > div.sc-1bker4h-3 > span.dddtqK > a'
                 },
                 model: {
-                    selector: 'div.fXjZNH > h1'
+                    selector: 'div.iURFxy > h1'
                 },
                 screen: {
-                    selector: 'ul.sc-1re71we-11 > li:nth-of-type(1) > span.dKxbux'
+                    selector: 'ul.sc-1re71we-9 > li:nth-of-type(1) > span.dKxbux'
                 },
                 battery: {
                     selector: 'div.sc-13p5mv-2 > div:nth-of-type(26) > div:nth-of-type(2) '
                 },
                 ram: {
-                    selector: 'div.sc-13p5mv-2 > div:nth-of-type(2) > div:nth-of-type(2) '
+                    selector: 'div.sc-13p5mv-2 > div:nth-of-type(3) > div:nth-of-type(2) > div '
                 },
                 memory: {
-                    selector: 'ul.sc-1re71we-11 > li:nth-of-type(3) > span.dKxbux'
+                    selector: 'ul.sc-1re71we-9 > li:nth-of-type(3) > span.dKxbux'
                 },
                 description: {
                     selector: 'div.content > div:nth-of-type(1) > div.col-md-12 > div.text-center > div.col-md-12 > div.fresh-content > div.col-md-10 > p:nth-of-type(1)'

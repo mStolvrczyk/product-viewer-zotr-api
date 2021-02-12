@@ -1607,8 +1607,8 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/interfaces/laptop.interface.ts": {
-        "version": "574382e92b0e3ce58498ac513f75f73256b1f81f1c3f19b584b15dd82fb99172",
-        "signature": "574382e92b0e3ce58498ac513f75f73256b1f81f1c3f19b584b15dd82fb99172",
+        "version": "ee78c55b0521ba4e3930e2cc972cdf55f20d1da7d71dde855bb3a1ba0f877e1b",
+        "signature": "b716c34123c18a815381c8329cc44bc3c019cb115b26c23cb3ecb467656a92ca",
         "affectsGlobalScope": false
       },
       "../src/collections/graphicsCards/services/graphicsCards.service.ts": {
@@ -1662,7 +1662,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/services/scrape.service.ts": {
-        "version": "f7e756ef8b47b3fc060eadcc134424c73f80a78c15b7c3544debbdffbd330fba",
+        "version": "14bc95c29e79cbd3b8857435f547ed00381e1a9b106a22e91d49c476ef8dc597",
         "signature": "41618339b43b2a0675a8e87fc74249c6bfe8a650710e23a8d2b3bff33c843606",
         "affectsGlobalScope": false
       },
@@ -1672,8 +1672,8 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/dto/create-laptop.dto.ts": {
-        "version": "b2e9ce679dcd5b08b8bbe5bb5e50a5662d321d90eeaff3b01a119431e4c25862",
-        "signature": "2e28fd92ebcd84965217e8c0a47930f24ac8ca9b0476e32ad710f0477802bc9e",
+        "version": "fd126d7d4a62f37c2b53d68605a3e54bf1dc5f8e3aab428b3db8134d913457db",
+        "signature": "7844c7741211b05686a9c1f7ce11646a9fcc15b6d4136912ff85f99125b7f0c5",
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/services/laptops.service.ts": {
@@ -1687,7 +1687,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/laptops/schemas/laptop.schema.ts": {
-        "version": "3f2a5c9bd1455cc9bca6cc90928bf754dab514b5e4080e06fe848b4e3708f147",
+        "version": "2f08b4ef9879ff947d64d55c0277f93c5995c3d684a04195d93b7d37f4f71eaa",
         "signature": "e7f6aaa70e2b18229aa8321d07729200bcab89b66dd73ce4732cb9d3910b4d97",
         "affectsGlobalScope": false
       },
@@ -1757,7 +1757,7 @@
         "affectsGlobalScope": false
       },
       "../src/collections/smartphones/services/scrape.service.ts": {
-        "version": "2d51e937de300c89dfd4ea1b874dfcf6012d97eb9491ee79fda63d005f4ae5ca",
+        "version": "03a50609a3ec31768c647e6a070516661a67965512432d0e7b67280923745ba4",
         "signature": "41618339b43b2a0675a8e87fc74249c6bfe8a650710e23a8d2b3bff33c843606",
         "affectsGlobalScope": false
       },
